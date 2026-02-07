@@ -38,42 +38,54 @@ export const es: TranslationDictionary = {
   },
   experience: {
     title: "Experiencia",
-    intro: "Roles clave donde tecnologia, gobernanza y operaciones se unieron para acelerar resultados.",
+    intro: "Experiencia profesional en Free2move en gestion de programas, ejecucion de producto, operaciones y desarrollo de negocio.",
     items: {
       exp_1: {
-        role: "Head of Tech Program Operations",
-        company: "NovaScale Group",
-        location: "Paris, Francia",
+        role: "Head of Project Manager",
+        company: "Free2move",
+        location: "Europa y Estados Unidos",
         summary:
-          "Lidere un portafolio multinacional de programas estrategicos, alineando prioridades de producto, ingenieria y operaciones.",
+          "Lidere programas internacionales de gran escala en SaaS, mobile, automatizacion, gobernanza presupuestaria y transformacion organizativa.",
         achievements: [
-          "Reduccion del lead time de entrega en 28% mediante rediseño de cadencias operativas y gobernanza de KPIs.",
-          "Automatizacion del reporting ejecutivo, ahorrando mas de 12 horas semanales a equipos directivos.",
-          "Mejora de la predictibilidad de roadmap de 62% a 87% en hitos criticos."
+          "Supervise despliegues SaaS en mas de 2.000 sitios de 10 paises europeos, con mas de 60.000 reservas mensuales y operacion estable.",
+          "Impulse el desarrollo y despliegue de una app movil de car sharing en Europa y EE.UU., soportando mas de 5.000 reservas diarias.",
+          "Logre un 40% de ahorro anual optimizando sourcing, renegociando contratos clave y simplificando procesos operativos.",
+          "Dirigi multiples proyectos internacionales con mas de 30 especialistas IT, gestionando alcance, riesgos, presupuestos y reporting.",
+          "Disene y lance en 6 meses una plataforma SaaS cloud de alquiler de coches, adaptada a requisitos regulatorios locales.",
+          "Lidere procesos RFQ con proveedores y socios tecnicos en proyectos con presupuestos anuales de hasta siete cifras.",
+          "Contribui a integraciones de M&A y reestructuracion organizativa alineando herramientas, procesos y gestion del cambio.",
+          "Disene y supervise procesos de capitalizacion y depreciacion de activos para mas de 200 empleados.",
+          "Lidere una taskforce interna de automatizacion para mapear procesos, priorizar casos de uso y reducir tareas repetitivas.",
+          "Desarrolle business cases de internalizacion para reducir dependencia de proveedores externos.",
+          "Gestione un presupuesto anual Tech de ocho cifras con forecast, analisis de desviaciones y recomendaciones al CTO y Finanzas."
         ]
       },
       exp_2: {
-        role: "Senior Program Manager, Technology",
-        company: "EuroDigital Ventures",
-        location: "Bruselas, Belgica",
+        role: "IT Project Manager",
+        company: "Free2move",
+        location: "Europa",
         summary:
-          "Gestione programas de transformacion empresarial con estandarizacion de herramientas, mejora de procesos y alineacion de stakeholders.",
+          "Lidere la ejecucion de producto y delivery en iniciativas software, hardware y de flota conectada en entorno Agile.",
         achievements: [
-          "Coordinacion de 9 corrientes cross-funcionales con un marco PMO consolidado.",
-          "Reduccion del tiempo de escalado de incidentes en 35% gracias a mejor gobernanza y playbooks.",
-          "Impulso a la adopcion de workflows de automatizacion para mas de 400 colaboradores."
+          "Defini y comunique vision de producto y roadmap trimestral, priorizando funcionalidades de mayor impacto.",
+          "Gestione backlog Agile y sprints de un equipo de 10 desarrolladores para asegurar entrega continua.",
+          "Lidere end-to-end el desarrollo hardware y software de un sistema automatizado de alquiler.",
+          "Negocie e implemente soluciones de flota conectada via smartphone para tracking en tiempo real y acceso remoto.",
+          "Prepare y consolide reportes mensuales de rendimiento y finanzas para direccion y operaciones."
         ]
       },
       exp_3: {
-        role: "Technology Operations Manager",
-        company: "Atlas Commerce",
-        location: "Milan, Italia",
+        role: "Business Developer",
+        company: "Free2move",
+        location: "Europa",
         summary:
-          "Apoye la expansion europea estructurando gobernanza de programas y gestion de rendimiento operativo.",
+          "Desarrolle alianzas e iniciativas de crecimiento combinando desarrollo comercial, estrategia digital, localizacion y marketing.",
         achievements: [
-          "Implementacion de estandares de seguimiento de portafolio para acelerar decisiones de direccion.",
-          "Trabajo conjunto con lideres de ingenieria para aumentar el throughput de releases en 22% interanual.",
-          "Optimice la gobernanza de proveedores y presupuesto para mejorar visibilidad del gasto estrategico."
+          "Desarrolle y gestione alianzas comerciales con mas de 30 proveedores, mejorando cobertura, precios y calidad de servicio.",
+          "Colabore con IT para orientar mejoras de producto a partir de feedback de clientes e insights de mercado.",
+          "Lance y localice webs de alquiler de coches en 3 paises europeos para impulsar reservas online y crecimiento internacional.",
+          "Contribui a la estrategia SEO mediante landing pages y campanas de backlinks, aumentando trafico cualificado.",
+          "Disene materiales de marketing y comunicacion web/print alineados con marca y campanas comerciales."
         ]
       }
     }
@@ -95,7 +107,7 @@ export const es: TranslationDictionary = {
     items: [
       { name: "Frances", level: "Nativo" },
       { name: "Ingles", level: "Fluido" },
-      { name: "Espanol", level: "Principiante" },
+      { name: "Espanol", level: "Intermedio" },
       { name: "Indonesio", level: "Principiante" }
     ]
   },

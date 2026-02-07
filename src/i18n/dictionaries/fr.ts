@@ -38,42 +38,54 @@ export const fr: TranslationDictionary = {
   },
   experience: {
     title: "Experience",
-    intro: "Roles selectionnes ou la technologie, la gouvernance et les operations ont ete combinees pour accelerer la performance.",
+    intro: "Experience professionnelle chez Free2move en pilotage de programmes, execution produit, operations et business development.",
     items: {
       exp_1: {
-        role: "Head of Tech Program Operations",
-        company: "NovaScale Group",
-        location: "Paris, France",
+        role: "Head of Project Manager",
+        company: "Free2move",
+        location: "Europe et Etats-Unis",
         summary:
-          "Pilotage d'un portefeuille multi-pays de programmes strategiques en alignant produit, ingenierie et operations.",
+          "Pilotage de programmes internationaux a grande echelle sur des sujets SaaS, mobile, automatisation, gouvernance budgetaire et transformation organisationnelle.",
         achievements: [
-          "Reduction de 28% du lead time de livraison grace a une nouvelle cadence de pilotage et des KPI unifies.",
-          "Mise en place d'un reporting executif automatise, economisant plus de 12h par semaine pour les equipes de direction.",
-          "Amelioration de la predictibilite roadmap de 62% a 87% sur les jalons critiques."
+          "Supervision de deploiements SaaS sur plus de 2 000 sites dans 10 pays europeens, avec plus de 60 000 reservations mensuelles et une exploitation stable.",
+          "Pilotage du developpement et du deploiement d'une application mobile d'autopartage en Europe et aux Etats-Unis, supportant plus de 5 000 reservations par jour.",
+          "Obtention de 40% d'economies annuelles via optimisation du sourcing, renegociation des contrats cles et rationalisation des processus.",
+          "Direction de plusieurs projets internationaux avec 30+ specialistes IT en pilotant perimetre, risques, budgets et reporting aux parties prenantes.",
+          "Conception et lancement en 6 mois d'une plateforme SaaS cloud de location automobile, adaptee aux contraintes reglementaires locales.",
+          "Pilotage des RFQ avec partenaires techniques et fournisseurs sur des projets a budget annuel jusqu'a 7 chiffres.",
+          "Contribution aux integrations M&A et a la reorganisation en alignant outils, processus et conduite du changement.",
+          "Conception et supervision des processus de capitalisation et depreciation des actifs pour 200+ collaborateurs.",
+          "Animation d'une taskforce d'automatisation interne pour cartographier les processus, prioriser les cas d'usage et reduire les taches repetitives.",
+          "Construction de business cases d'internalisation pour reduire la dependance aux prestataires externes.",
+          "Pilotage d'un budget Tech annuel a 8 chiffres avec previsions, analyse des ecarts et recommandations d'optimisation au CTO et a la Finance."
         ]
       },
       exp_2: {
-        role: "Senior Program Manager, Technology",
-        company: "EuroDigital Ventures",
-        location: "Bruxelles, Belgique",
+        role: "IT Project Manager",
+        company: "Free2move",
+        location: "Europe",
         summary:
-          "Conduite de programmes de transformation enterprise: standardisation des outils, optimisation des processus et alignement des parties prenantes.",
+          "Pilotage de l'execution produit et delivery sur des initiatives software, hardware et flotte connectee dans un cadre Agile.",
         achievements: [
-          "Coordination de 9 streams cross-fonctionnels via un cadre PMO consolide.",
-          "Reduction de 35% du temps d'escalade incident grace a une gouvernance renforcee.",
-          "Acceleration de l'adoption de workflows d'automatisation pour plus de 400 collaborateurs."
+          "Definition et communication de la vision produit et de la roadmap pluri-trimestrielle avec priorisation des fonctionnalites a plus fort impact.",
+          "Gestion du backlog Agile et des sprints d'une equipe de 10 developpeurs pour garantir une livraison reguliere.",
+          "Pilotage de bout en bout du developpement hardware et software d'un systeme de location automatise.",
+          "Negociation et mise en place de solutions de flotte connectee via smartphone pour le suivi temps reel et l'acces a distance.",
+          "Preparation et consolidation de reportings mensuels de performance et financiers pour le management et les operations."
         ]
       },
       exp_3: {
-        role: "Technology Operations Manager",
-        company: "Atlas Commerce",
-        location: "Milan, Italie",
+        role: "Business Developer",
+        company: "Free2move",
+        location: "Europe",
         summary:
-          "Structuration de la gouvernance programme et du pilotage de performance pour soutenir la croissance europeenne.",
+          "Developpement de partenariats et d'initiatives de croissance combinant business development, strategie digitale, localisation et marketing.",
         achievements: [
-          "Mise en place de standards de suivi portefeuille augmentant la vitesse de decision au niveau direction.",
-          "Partenariat avec les leads engineering pour augmenter de 22% le throughput de releases.",
-          "Rationalisation de la gouvernance budget et fournisseurs avec meilleure visibilite sur les depenses strategiques."
+          "Developpement et gestion de partenariats commerciaux avec 30+ fournisseurs, ameliorant couverture reseau, conditions tarifaires et qualite de service.",
+          "Collaboration avec l'IT pour orienter les evolutions produit a partir des retours clients et analyses de marche.",
+          "Lancement et localisation de sites web de location automobile dans 3 pays europeens pour soutenir la croissance internationale.",
+          "Contribution a la strategie SEO via landing pages ciblees et campagnes de backlinks, augmentant le trafic qualifie.",
+          "Conception de supports marketing et communication web/print alignes aux standards de marque et aux campagnes commerciales."
         ]
       }
     }
@@ -95,7 +107,7 @@ export const fr: TranslationDictionary = {
     items: [
       { name: "Francais", level: "Natif" },
       { name: "Anglais", level: "Courant" },
-      { name: "Espagnol", level: "Debutant" },
+      { name: "Espagnol", level: "Intermediaire" },
       { name: "Indonesien", level: "Debutant" }
     ]
   },

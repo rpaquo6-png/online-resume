@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Section } from "@/components/Section";
 import { ExperienceCard } from "@/components/ExperienceCard";
+import { LanguageCard, getLanguageLevelScore } from "@/components/LanguageCard";
 import { SkillsGrid } from "@/components/SkillsGrid";
 import { experiences } from "@/data/experiences";
 import { getDictionary } from "@/lib/i18n";
@@ -31,6 +32,9 @@ export default function LocalePage({ params }: Props) {
     email: dictionary.contact.email,
     knowsLanguage: dictionary.languages.items.map((item) => item.name)
   };
+  const sortedLanguages = [...dictionary.languages.items].sort(
+    (a, b) => getLanguageLevelScore(b.level) - getLanguageLevelScore(a.level)
+  );
 
   return (
     <>
@@ -68,13 +72,12 @@ export default function LocalePage({ params }: Props) {
         </Section>
 
         <Section id="languages" title={dictionary.languages.title}>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {dictionary.languages.items.map((item) => (
-              <div key={item.name} className="glass-card flex items-center justify-between p-4">
-                <span className="font-medium">{item.name}</span>
-                <span className="text-sm text-foreground/80">{item.level}</span>
-              </div>
-            ))}
+          <div className="glass-card overflow-x-auto">
+            <div className="flex min-w-max items-start justify-between gap-3">
+              {sortedLanguages.map((item) => (
+                <LanguageCard key={item.name} name={item.name} level={item.level} />
+              ))}
+            </div>
           </div>
         </Section>
 

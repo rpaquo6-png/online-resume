@@ -38,42 +38,54 @@ export const en: TranslationDictionary = {
   },
   experience: {
     title: "Experience",
-    intro: "Selected roles where technology, governance, and operations were combined to accelerate delivery and growth.",
+    intro: "Professional experience at Free2move across program delivery, product execution, operations, and business development.",
     items: {
       exp_1: {
-        role: "Head of Tech Program Operations",
-        company: "NovaScale Group",
-        location: "Paris, France",
+        role: "Head of Project Manager",
+        company: "Free2move",
+        location: "Europe & U.S.",
         summary:
-          "Led a multi-country portfolio of strategic programs, aligning product, engineering, and operations priorities.",
+          "Led large-scale international programs and operations across SaaS, mobile, automation, budget governance, and organizational transformation.",
         achievements: [
-          "Reduced cross-team delivery lead time by 28% through operating cadence redesign and KPI governance.",
-          "Built executive reporting automation, saving 12+ hours weekly for leadership teams.",
-          "Improved roadmap predictability from 62% to 87% on-time milestones across critical initiatives."
+          "Oversaw SaaS platform deployments across 2,000+ sites in 10 European countries, enabling over 60,000 monthly bookings and stable day-to-day operations.",
+          "Spearheaded development and rollout of a car-sharing mobile app across Europe and the U.S., supporting 5,000+ daily bookings and improving customer self-service.",
+          "Achieved 40% annual cost savings by optimizing sourcing strategies, renegotiating key contracts, and streamlining core operational processes.",
+          "Led multiple large-scale international projects with 30+ IT specialists, steering scope, risks, and budgets while providing clear stakeholder reporting.",
+          "Developed and launched a scalable cloud-based SaaS car rental platform in 6 months, tailored to local regulatory and market needs.",
+          "Led RFQ processes with vendors and technical partners on projects with annual budgets up to seven figures, securing competitive pricing and service commitments.",
+          "Contributed to M&A integrations and organizational restructuring by aligning tools and processes, consolidating platforms, and supporting change management.",
+          "Designed and oversaw asset capitalization and depreciation processes for 200+ employees, ensuring accurate financial reporting and lifecycle tracking.",
+          "Led an internal automation taskforce that mapped business processes, prioritized use cases, and reduced repetitive work through no-code workflows.",
+          "Developed and presented internalization business cases, reducing dependency on external vendors through build-vs-buy decisions.",
+          "Owned an eight-figure annual Tech budget, with forecasting, variance analysis, and optimization recommendations to CTO and Finance."
         ]
       },
       exp_2: {
-        role: "Senior Program Manager, Technology",
-        company: "EuroDigital Ventures",
-        location: "Brussels, Belgium",
+        role: "IT Project Manager",
+        company: "Free2move",
+        location: "Europe",
         summary:
-          "Managed enterprise transformation programs spanning tooling standardization, process optimization, and stakeholder alignment.",
+          "Drove product and delivery execution across software, hardware, and connected fleet initiatives in an Agile environment.",
         achievements: [
-          "Coordinated delivery for 9 cross-functional streams with a consolidated PMO framework.",
-          "Cut incident escalation time by 35% through improved governance and cross-team playbooks.",
-          "Drove adoption of automation workflows impacting 400+ employees across business and tech units."
+          "Defined and communicated product vision and multi-quarter roadmap, prioritizing features with the highest customer and business impact.",
+          "Managed Agile backlog and sprint cycles for a 10-person development team, securing steady delivery against objectives.",
+          "Led end-to-end hardware and software development of an automated rental system, improving customer autonomy and service quality.",
+          "Negotiated and implemented smartphone-based connected fleet solutions for real-time tracking, remote access, and smoother operations.",
+          "Prepared and consolidated monthly performance and financial reports for management and operations with clear dashboards."
         ]
       },
       exp_3: {
-        role: "Technology Operations Manager",
-        company: "Atlas Commerce",
-        location: "Milan, Italy",
+        role: "Business Developer",
+        company: "Free2move",
+        location: "Europe",
         summary:
-          "Supported European scale-up by structuring program governance and operational performance management.",
+          "Developed partnerships and growth initiatives combining commercial development, digital strategy, localization, and marketing execution.",
         achievements: [
-          "Implemented portfolio tracking standards improving decision speed at board-level reviews.",
-          "Partnered with engineering leads to increase release throughput by 22% year-over-year.",
-          "Streamlined vendor and budget governance, improving visibility across strategic spend."
+          "Developed and managed commercial partnerships with 30+ suppliers, improving network coverage, pricing, and service quality.",
+          "Collaborated with IT to shape product improvements from client feedback and market insights, strengthening win rate and retention.",
+          "Launched and localized car rental websites in 3 European countries, driving online bookings and international growth.",
+          "Contributed to SEO and digital strategy through targeted landing pages and backlink campaigns, increasing qualified traffic.",
+          "Designed marketing and communication materials for web and print, aligned with brand guidelines and sales campaigns."
         ]
       }
     }
@@ -95,7 +107,7 @@ export const en: TranslationDictionary = {
     items: [
       { name: "French", level: "Native" },
       { name: "English", level: "Fluent" },
-      { name: "Spanish", level: "Beginner" },
+      { name: "Spanish", level: "Intermediate" },
       { name: "Indonesian", level: "Beginner" }
     ]
   },
