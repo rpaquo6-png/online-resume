@@ -2,7 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Section } from "@/components/Section";
-import { ExperienceCard } from "@/components/ExperienceCard";
+import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { LanguageCard, getLanguageLevelScore } from "@/components/LanguageCard";
 import { SkillsGrid } from "@/components/SkillsGrid";
 import { experiences } from "@/data/experiences";
@@ -17,6 +17,11 @@ type Props = {
 export default function LocalePage({ params }: Props) {
   const locale = isLocale(params.locale) ? (params.locale as Locale) : "en";
   const dictionary = getDictionary(locale);
+  const sortedExperiences = [...experiences].sort((a, b) => {
+    const aStart = Number(a.start);
+    const bStart = Number(b.start);
+    return bStart - aStart;
+  });
 
   const personSchema = {
     "@context": "https://schema.org",
@@ -53,12 +58,7 @@ export default function LocalePage({ params }: Props) {
 
         <Section id="experience" title={dictionary.experience.title}>
           <p className="mb-6 max-w-3xl text-foreground/80">{dictionary.experience.intro}</p>
-          <div className="grid gap-5">
-            {experiences.map((record) => {
-              const content = dictionary.experience.items[record.id];
-              return <ExperienceCard key={record.id} record={record} content={content} />;
-            })}
-          </div>
+          <ExperienceTimeline records={sortedExperiences} items={dictionary.experience.items} />
         </Section>
 
         <Section id="education" title={dictionary.education.title}>
