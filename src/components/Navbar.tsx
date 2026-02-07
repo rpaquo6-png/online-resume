@@ -33,7 +33,7 @@ export function Navbar({ locale, dictionary }: Props) {
             href={dictionary.nav.cvHref}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border px-3 py-1.5 text-sm transition hover:border-accent hover:text-accent"
+            className="inline-flex h-11 items-center rounded-full border px-5 text-sm transition hover:border-accent hover:text-accent"
           >
             {dictionary.nav.downloadCv}
           </a>
