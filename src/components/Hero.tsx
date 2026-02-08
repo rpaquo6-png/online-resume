@@ -12,7 +12,7 @@ export function Hero({ dictionary }: Props) {
   const yearsOfExperience = calculateYearsOfExperience(firstExperienceStartYear);
 
   return (
-    <section className="section-shell py-12 sm:py-16">
+    <section className="section-shell py-6 sm:py-8">
       <div className="fade-up grid gap-8 lg:grid-cols-[1fr_2fr] lg:grid-rows-[auto_auto] lg:items-start">
         <div className="mx-auto w-full max-w-xs lg:mx-0 lg:h-full lg:max-w-none">
           <div className="mx-auto aspect-square w-full max-w-xs lg:h-full lg:w-auto">
@@ -50,14 +50,6 @@ export function Hero({ dictionary }: Props) {
           </dl>
         </div>
 
-        <div className="flex flex-wrap gap-3 lg:col-start-2">
-          <a href="#contact" className="rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white">
-            {dictionary.hero.ctaPrimary}
-          </a>
-          <a href="#experience" className="rounded-full border px-5 py-2.5 text-sm font-semibold">
-            {dictionary.hero.ctaSecondary}
-          </a>
-        </div>
       </div>
     </section>
   );

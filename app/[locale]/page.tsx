@@ -99,7 +99,7 @@ export default function LocalePage({ params }: Props) {
           </div>
         </Section>
 
-        <Section id="contact" title={dictionary.contact.title} className="pb-14">
+        <Section id="contact" title={dictionary.contact.title}>
           <div className="glass-card">
             <p className="mb-4 text-foreground/85">{dictionary.contact.body}</p>
             <p className="mb-4 text-sm text-foreground/75">

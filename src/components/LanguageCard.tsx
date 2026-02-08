@@ -12,13 +12,6 @@ const levelScoreRules = [
   { tokens: ["beginner", "debutant", "principiante"], score: 10 }
 ];
 
-const flagRules = [
-  { tokens: ["french", "francais", "frances"], flag: "🇫🇷" },
-  { tokens: ["english", "anglais", "ingles"], flag: "🇬🇧" },
-  { tokens: ["spanish", "espagnol", "espanol"], flag: "🇪🇸" },
-  { tokens: ["indonesian", "indonesien", "indonesio"], flag: "🇮🇩" }
-];
-
 function normalize(value: string) {
   return value
     .toLowerCase()
@@ -32,12 +25,6 @@ export function getLanguageLevelScore(level: string) {
     rule.tokens.some((token) => normalized.includes(token))
   );
   return matched?.score ?? 50;
-}
-
-function getFlag(name: string) {
-  const normalized = normalize(name);
-  const matched = flagRules.find((rule) => rule.tokens.some((token) => normalized.includes(token)));
-  return matched?.flag ?? "🌍";
 }
 
 export function LanguageCard({ name, level, animate = true, delayMs = 0 }: Props) {
@@ -83,12 +70,7 @@ export function LanguageCard({ name, level, animate = true, delayMs = 0 }: Props
           </span>
         </div>
       </div>
-      <p className="text-lg font-semibold leading-none">
-        <span className="mr-2" aria-hidden="true">
-          {getFlag(name)}
-        </span>
-        {name}
-      </p>
+      <p className="text-lg font-semibold leading-none">{name}</p>
     </div>
   );
 }
