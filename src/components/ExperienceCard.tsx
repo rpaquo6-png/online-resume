@@ -16,7 +16,7 @@ export function ExperienceCard({ record, content, side, revealProgress }: Props)
   const revealPercent = Math.round(clampedReveal * 100);
   const cardBackground = `color-mix(in srgb, rgb(var(--border)) ${100 - revealPercent}%, rgb(var(--bg)) ${revealPercent}%)`;
   const titleColor = `color-mix(in srgb, rgb(var(--fg)) ${100 - revealPercent}%, rgb(var(--accent)) ${revealPercent}%)`;
-  const seeMoreColor = `color-mix(in srgb, rgb(var(--border)) ${100 - revealPercent}%, rgb(var(--accent)) ${revealPercent}%)`;
+  const seeMoreColor = `color-mix(in srgb, rgb(var(--fg) / 0.45) ${100 - revealPercent}%, rgb(var(--accent)) ${revealPercent}%)`;
 
   return (
     <article

@@ -1,6 +1,8 @@
 type Props = {
   name: string;
   level: string;
+  animate?: boolean;
+  delayMs?: number;
 };
 
 const levelScoreRules = [
@@ -38,16 +40,17 @@ function getFlag(name: string) {
   return matched?.flag ?? "🌍";
 }
 
-export function LanguageCard({ name, level }: Props) {
+export function LanguageCard({ name, level, animate = true, delayMs = 0 }: Props) {
   const score = getLanguageLevelScore(level);
   const size = 96;
   const strokeWidth = 11;
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
-  const strokeDashoffset = circumference * (1 - score / 100);
+  const targetStrokeDashoffset = circumference * (1 - score / 100);
+  const strokeDashoffset = animate ? targetStrokeDashoffset : circumference;
 
   return (
-    <div className="flex min-w-[170px] flex-col items-center gap-3 p-4 text-center">
+    <div className="glass-card flex min-w-[190px] flex-1 basis-0 flex-col items-center gap-3 p-4 text-center">
       <div className="relative h-24 w-24" aria-label={`${name}: ${level}`}>
         <svg className="-rotate-90" width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
           <circle
@@ -68,6 +71,10 @@ export function LanguageCard({ name, level }: Props) {
             strokeLinecap="round"
             strokeDasharray={circumference}
             strokeDashoffset={strokeDashoffset}
+            style={{
+              transition: "stroke-dashoffset 1.1s cubic-bezier(0.22, 1, 0.36, 1)",
+              transitionDelay: `${delayMs}ms`
+            }}
           />
         </svg>
         <div className="absolute inset-0 grid place-items-center px-1 text-center">

@@ -17,31 +17,37 @@ export function Navbar({ locale, dictionary }: Props) {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-background/85 backdrop-blur">
-      <div className="section-shell flex min-h-16 items-center justify-between gap-4">
-        <Link href={`/${locale}`} className="text-sm font-semibold tracking-wide sm:text-base">
-          {dictionary.hero.firstName} {dictionary.hero.lastName}
-        </Link>
+    <header className="sticky top-0 z-50">
+      <div className="section-shell">
+        <div className="flex min-h-16 items-center justify-between gap-4 border-b bg-background/85 backdrop-blur">
+          <Link href={`/${locale}`} className="text-sm font-semibold tracking-wide sm:text-base">
+            {dictionary.hero.firstName} {dictionary.hero.lastName}
+          </Link>
 
-        <nav className="hidden items-center gap-4 md:flex" aria-label={dictionary.ui.navAriaLabel}>
-          {links.map((link) => (
-            <a key={link.href} href={link.href} className="text-sm text-foreground/85 transition hover:text-accent">
-              {link.label}
+          <nav className="hidden items-center gap-4 md:flex" aria-label={dictionary.ui.navAriaLabel}>
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm text-foreground/85 transition hover:text-accent"
+              >
+                {link.label}
+              </a>
+            ))}
+            <a
+              href={dictionary.nav.cvHref}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-11 items-center rounded-full border px-5 text-sm transition hover:border-accent hover:text-accent"
+            >
+              {dictionary.nav.downloadCv}
             </a>
-          ))}
-          <a
-            href={dictionary.nav.cvHref}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex h-11 items-center rounded-full border px-5 text-sm transition hover:border-accent hover:text-accent"
-          >
-            {dictionary.nav.downloadCv}
-          </a>
-        </nav>
+          </nav>
 
-        <div className="flex items-center gap-2">
-          <LanguageSwitcher locale={locale} ariaLabel={dictionary.ui.languageLabel} />
-          <ThemeToggle lightLabel={dictionary.ui.themeLight} darkLabel={dictionary.ui.themeDark} />
+          <div className="flex items-center gap-2">
+            <LanguageSwitcher locale={locale} ariaLabel={dictionary.ui.languageLabel} />
+            <ThemeToggle lightLabel={dictionary.ui.themeLight} darkLabel={dictionary.ui.themeDark} />
+          </div>
         </div>
       </div>
     </header>

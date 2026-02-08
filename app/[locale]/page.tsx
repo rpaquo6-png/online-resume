@@ -3,7 +3,8 @@ import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Section } from "@/components/Section";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
-import { LanguageCard, getLanguageLevelScore } from "@/components/LanguageCard";
+import { getLanguageLevelScore } from "@/components/LanguageCard";
+import { LanguagesSection } from "@/components/LanguagesSection";
 import { SkillsGrid } from "@/components/SkillsGrid";
 import { experiences } from "@/data/experiences";
 import { getDictionary } from "@/lib/i18n";
@@ -69,25 +70,19 @@ export default function LocalePage({ params }: Props) {
         <Hero dictionary={dictionary} />
 
         <Section id="about" title={dictionary.about.title}>
-          <div className="glass-card max-w-4xl text-foreground/90">{dictionary.about.body}</div>
+          <div className="glass-card text-foreground/90">{dictionary.about.body}</div>
         </Section>
 
         <Section id="experience" title={dictionary.experience.title}>
           <div id="education" className="scroll-mt-24" />
           {dictionary.experience.intro ? (
-            <p className="mb-6 max-w-3xl text-foreground/80">{dictionary.experience.intro}</p>
+            <p className="mb-6 text-foreground/80">{dictionary.experience.intro}</p>
           ) : null}
           <ExperienceTimeline records={timelineRecords} items={timelineItems} />
         </Section>
 
         <Section id="languages" title={dictionary.languages.title}>
-          <div className="glass-card overflow-x-auto">
-            <div className="flex min-w-max items-start justify-between gap-3">
-              {sortedLanguages.map((item) => (
-                <LanguageCard key={item.name} name={item.name} level={item.level} />
-              ))}
-            </div>
-          </div>
+          <LanguagesSection items={sortedLanguages} />
         </Section>
 
         <Section id="skills" title={dictionary.skills.title}>
@@ -106,7 +101,7 @@ export default function LocalePage({ params }: Props) {
 
         <Section id="contact" title={dictionary.contact.title} className="pb-14">
           <div className="glass-card">
-            <p className="mb-4 max-w-3xl text-foreground/85">{dictionary.contact.body}</p>
+            <p className="mb-4 text-foreground/85">{dictionary.contact.body}</p>
             <p className="mb-4 text-sm text-foreground/75">
               {dictionary.contact.emailLabel}: 
               <a href={`mailto:${dictionary.contact.email}`} className="font-semibold text-accent">

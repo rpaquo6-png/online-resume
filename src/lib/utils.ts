@@ -10,3 +10,7 @@ export function calculateAge(birthDateIso: string, now = new Date()): number {
 
   return age;
 }
+
+export function calculateYearsOfExperience(startYear: number, now = new Date()): number {
+  return Math.max(0, now.getFullYear() - startYear);
+}

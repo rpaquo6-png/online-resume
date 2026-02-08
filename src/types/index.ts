@@ -32,11 +32,11 @@ export type TranslationDictionary = {
     location: string;
     locationLabel: string;
     ageLabel: string;
+    experienceLabel: string;
     intro: string;
     ctaPrimary: string;
     ctaSecondary: string;
     birthDateIso: string;
-    badge: string;
   };
   about: {
     title: string;

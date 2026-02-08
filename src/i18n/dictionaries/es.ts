@@ -25,12 +25,12 @@ export const es: TranslationDictionary = {
     location: "Ile-de-France (disponible para reubicacion)",
     locationLabel: "Ubicacion",
     ageLabel: "Edad",
+    experienceLabel: "Anos de experiencia",
     intro:
       "Conecto estrategia, ejecucion y tecnologia para escalar programas, optimizar operaciones y generar impacto medible.",
     ctaPrimary: "Contactarme",
     ctaSecondary: "Ver experiencia",
-    birthDateIso: "1992-05-17",
-    badge: "Resume ejecutivo"
+    birthDateIso: "1992-05-17"
   },
   about: {
     title: "Sobre mi",
