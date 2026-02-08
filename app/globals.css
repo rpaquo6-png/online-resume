@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --bg: 245 247 250;
+  --bg: 255 255 255;
   --fg: 13 17 23;
-  --accent: 15 76 129;
+  --accent: 0 132 250;
   --muted: 236 241 246;
   --border: 207 217 227;
 }
@@ -13,7 +13,7 @@
 .dark {
   --bg: 11 16 21;
   --fg: 230 236 243;
-  --accent: 94 168 255;
+  --accent: 0 132 250;
   --muted: 20 28 37;
   --border: 46 58 72;
 }
@@ -28,12 +28,16 @@ html {
 
 body {
   margin: 0;
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.dark body {
   background:
     radial-gradient(circle at 15% 5%, rgb(var(--muted)) 0%, transparent 45%),
     radial-gradient(circle at 85% 12%, rgb(var(--muted) / 0.55) 0%, transparent 40%),
     rgb(var(--bg));
-  color: rgb(var(--fg));
-  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 .section-shell {

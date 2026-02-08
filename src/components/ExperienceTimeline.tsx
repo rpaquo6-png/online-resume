@@ -99,14 +99,14 @@ export function ExperienceTimeline({ records, items }: Props) {
           x2="12"
           y2={safeTrackHeight}
           stroke="rgb(var(--border))"
-          strokeWidth="3"
+          strokeWidth="4"
         />
         {markerPoints.map((y, index) => (
           <circle
             key={`marker-${index}`}
             cx="12"
             cy={y}
-            r="8"
+            r="9"
             fill={progressHeight >= y ? "rgb(var(--accent))" : "rgb(var(--border))"}
           />
         ))}
@@ -118,7 +118,7 @@ export function ExperienceTimeline({ records, items }: Props) {
             x2="12"
             y2={safeTrackHeight}
             stroke="rgb(var(--accent))"
-            strokeWidth="3"
+            strokeWidth="4"
           />
         </g>
       </svg>
@@ -126,6 +126,12 @@ export function ExperienceTimeline({ records, items }: Props) {
       {records.map((record, index) => {
         const content = items[record.id];
         const side = index % 2 === 0 ? "right" : "left";
+        const markerY = markerPoints[index] ?? safeTrackHeight;
+        const revealWindow = 120;
+        const revealProgress = Math.min(
+          1,
+          Math.max(0, (progressHeight - (markerY - revealWindow)) / revealWindow),
+        );
 
         return (
           <div
@@ -135,7 +141,12 @@ export function ExperienceTimeline({ records, items }: Props) {
             }}
             className="relative grid grid-cols-1 md:grid-cols-12"
           >
-            <ExperienceCard record={record} content={content} side={side} />
+            <ExperienceCard
+              record={record}
+              content={content}
+              side={side}
+              revealProgress={revealProgress}
+            />
           </div>
         );
       })}

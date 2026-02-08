@@ -22,6 +22,22 @@ export default function LocalePage({ params }: Props) {
     const bStart = Number(b.start);
     return bStart - aStart;
   });
+  const educationTimelineRecord = {
+    id: "edu_1",
+    start: dictionary.education.schoolYears,
+    end: ""
+  };
+  const timelineRecords = [...sortedExperiences, educationTimelineRecord];
+  const timelineItems = {
+    ...dictionary.experience.items,
+    [educationTimelineRecord.id]: {
+      role: dictionary.education.title,
+      company: dictionary.education.school,
+      location: "",
+      summary: dictionary.education.degree,
+      achievements: [dictionary.education.thesis, dictionary.education.exchanges]
+    }
+  };
 
   const personSchema = {
     "@context": "https://schema.org",
@@ -57,18 +73,11 @@ export default function LocalePage({ params }: Props) {
         </Section>
 
         <Section id="experience" title={dictionary.experience.title}>
-          <p className="mb-6 max-w-3xl text-foreground/80">{dictionary.experience.intro}</p>
-          <ExperienceTimeline records={sortedExperiences} items={dictionary.experience.items} />
-        </Section>
-
-        <Section id="education" title={dictionary.education.title}>
-          <div className="glass-card grid gap-3">
-            <p className="text-sm text-foreground/70">{dictionary.education.schoolYears}</p>
-            <p className="font-medium">{dictionary.education.school}</p>
-            <p>{dictionary.education.degree}</p>
-            <p>{dictionary.education.thesis}</p>
-            <p>{dictionary.education.exchanges}</p>
-          </div>
+          <div id="education" className="scroll-mt-24" />
+          {dictionary.experience.intro ? (
+            <p className="mb-6 max-w-3xl text-foreground/80">{dictionary.experience.intro}</p>
+          ) : null}
+          <ExperienceTimeline records={timelineRecords} items={timelineItems} />
         </Section>
 
         <Section id="languages" title={dictionary.languages.title}>

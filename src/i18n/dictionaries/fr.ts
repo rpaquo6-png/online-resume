@@ -9,7 +9,7 @@ export const fr: TranslationDictionary = {
   },
   nav: {
     about: "Profil",
-    experience: "Experience",
+    experience: "Parcours profesionnle",
     education: "Formation",
     languages: "Langues",
     skills: "Competences",
@@ -37,7 +37,7 @@ export const fr: TranslationDictionary = {
     body: "Operateur experimente avec un solide historique d'optimisation des processus et de pilotage d'initiatives tech a grande echelle en Europe. Delivre des resultats par l'analyse rigoureuse, l'automatisation et la collaboration cross-fonctionnelle. Souhaite accelerer la croissance dans un environnement dynamique."
   },
   experience: {
-    title: "Experience",
+    title: "Parcours profesionnle",
     intro: "Experience professionnelle chez Free2move en pilotage de programmes, execution produit, operations et business development.",
     items: {
       exp_1: {

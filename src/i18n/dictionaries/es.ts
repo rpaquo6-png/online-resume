@@ -9,7 +9,7 @@ export const es: TranslationDictionary = {
   },
   nav: {
     about: "Perfil",
-    experience: "Experiencia",
+    experience: "Trayectoria profesional",
     education: "Educacion",
     languages: "Idiomas",
     skills: "Habilidades",
@@ -37,7 +37,7 @@ export const es: TranslationDictionary = {
     body: "Operador experimentado con historial de optimizacion de procesos y liderazgo de iniciativas tecnologicas de gran escala en Europa. Entrega resultados mediante analisis riguroso, automatizacion y trabajo cross-funcional. Busca acelerar crecimiento en un entorno dinamico."
   },
   experience: {
-    title: "Experiencia",
+    title: "Trayectoria profesional",
     intro: "Experiencia profesional en Free2move en gestion de programas, ejecucion de producto, operaciones y desarrollo de negocio.",
     items: {
       exp_1: {

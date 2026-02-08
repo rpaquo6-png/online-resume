@@ -9,7 +9,7 @@ export const en: TranslationDictionary = {
   },
   nav: {
     about: "About",
-    experience: "Experience",
+    experience: "Career Path",
     education: "Education",
     languages: "Languages",
     skills: "Skills",
@@ -37,8 +37,8 @@ export const en: TranslationDictionary = {
     body: "Experienced operator with a record of optimizing processes and driving large-scale tech initiatives across Europe. Delivers results through rigorous analysis, automation, and cross-functional teamwork. Seeking to accelerate growth in a dynamic setting."
   },
   experience: {
-    title: "Experience",
-    intro: "Professional experience at Free2move across program delivery, product execution, operations, and business development.",
+    title: "Career Path",
+    intro: "",
     items: {
       exp_1: {
         role: "Head of Project Manager",
