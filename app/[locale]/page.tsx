@@ -57,6 +57,7 @@ export default function LocalePage({ params }: Props) {
   const sortedLanguages = [...dictionary.languages.items].sort(
     (a, b) => getLanguageLevelScore(b.level) - getLanguageLevelScore(a.level)
   );
+  const aboutBody = dictionary.about.body.replace("__EXPERIENCE_VALUE__", dictionary.hero.experienceValue);
 
   return (
     <>
@@ -71,8 +72,8 @@ export default function LocalePage({ params }: Props) {
 
         <Section id="about" title={dictionary.about.title}>
           <div
-            className="text-justify text-foreground/90 [&_b]:font-normal [&_b]:text-blue-600"
-            dangerouslySetInnerHTML={{ __html: dictionary.about.body }}
+            className="text-justify text-foreground/90 [&_b]:font-normal [&_b]:text-accent"
+            dangerouslySetInnerHTML={{ __html: aboutBody }}
           />
         </Section>
 
@@ -81,7 +82,11 @@ export default function LocalePage({ params }: Props) {
           {dictionary.experience.intro ? (
             <p className="mb-6 text-foreground/80">{dictionary.experience.intro}</p>
           ) : null}
-          <ExperienceTimeline records={timelineRecords} items={timelineItems} />
+          <ExperienceTimeline
+            records={timelineRecords}
+            items={timelineItems}
+            seeMoreLabel={dictionary.ui.seeMoreDetails}
+          />
         </Section>
 
         <Section id="skills" title={dictionary.skills.title}>
@@ -109,13 +114,13 @@ export default function LocalePage({ params }: Props) {
               href={dictionary.contact.linkedinHref}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex rounded-full border border-foreground/20 px-5 py-2.5 text-sm font-semibold text-foreground transition hover:border-accent hover:text-accent"
+              className="inline-flex w-40 justify-center rounded-full border border-foreground/20 px-5 py-2.5 text-sm font-semibold text-foreground transition hover:border-accent hover:text-accent"
             >
               {dictionary.contact.ctaLinkedin}
             </a>
             <a
               href={`mailto:${dictionary.contact.email}`}
-              className="inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white"
+              className="inline-flex w-40 justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white"
             >
               {dictionary.contact.ctaEmail}
             </a>

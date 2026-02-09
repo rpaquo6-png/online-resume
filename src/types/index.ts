@@ -107,5 +107,6 @@ export type TranslationDictionary = {
     themeLight: string;
     themeDark: string;
     navAriaLabel: string;
+    seeMoreDetails: string;
   };
 };

@@ -38,7 +38,7 @@ export const en: TranslationDictionary = {
   },
   about: {
     title: "About",
-    body: "<b>Technology and operations leader</b> with <b>10+ years of experience</b> scaling digital mobility products across <b>Europe and the US</b>. I have led <b>multi-country SaaS and mobile programs</b>, managed <b>eight-figure budgets</b>, and driven <b>cross-functional execution</b> across product, engineering, finance, and operations. My focus is turning <b>strategy into measurable outcomes</b> through strong program governance, <b>operational excellence</b>, internal tooling, and <b>automation</b>. I am targeting executive roles such as <b>Chief of Staff, Technology</b> and <b>Head of Tech Programs and Operations</b>, with a strong interest in <b>AI-enabled transformation</b>."
+    body: "<b>Technology and operations leader</b> with <b>__EXPERIENCE_VALUE__ of experience</b> scaling digital mobility products across <b>Europe and the US</b>. I have led <b>multi-country SaaS and mobile programs</b>, managed <b>eight-figure budgets</b>, and driven <b>cross-functional execution</b> across product, engineering, finance, and operations. My focus is turning <b>strategy into measurable outcomes</b> through strong program governance, <b>operational excellence</b>, internal tooling, and <b>automation</b>. I am targeting executive roles such as <b>Chief of Staff, Technology</b> and <b>Head of Tech Programs and Operations</b>, with a strong interest in <b>AI-enabled transformation</b>."
   },
   experience: {
     title: "Career Path",
@@ -178,6 +178,7 @@ export const en: TranslationDictionary = {
     languageLabel: "Language",
     themeLight: "Light",
     themeDark: "Dark",
-    navAriaLabel: "Primary navigation"
+    navAriaLabel: "Primary navigation",
+    seeMoreDetails: "See more details"
   }
 };

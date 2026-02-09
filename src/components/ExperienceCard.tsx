@@ -9,9 +9,10 @@ type Props = {
   content: TranslationDictionary["experience"]["items"][string];
   side: "left" | "right";
   revealProgress: number;
+  seeMoreLabel: string;
 };
 
-export function ExperienceCard({ record, content, side, revealProgress }: Props) {
+export function ExperienceCard({ record, content, side, revealProgress, seeMoreLabel }: Props) {
   const clampedReveal = Math.min(1, Math.max(0, revealProgress));
   const revealPercent = Math.round(clampedReveal * 100);
   const cardBackground = `color-mix(in srgb, rgb(var(--border)) ${100 - revealPercent}%, rgb(var(--bg)) ${revealPercent}%)`;
@@ -42,7 +43,7 @@ export function ExperienceCard({ record, content, side, revealProgress }: Props)
       {content.achievements.length > 0 ? (
         <details className="mt-4 text-sm">
           <summary className="cursor-pointer font-medium transition-colors duration-300 ease-out" style={{ color: seeMoreColor }}>
-            See more details
+            {seeMoreLabel}
           </summary>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-justify text-foreground/85">
             {content.achievements.map((achievement, index) => (

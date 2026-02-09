@@ -8,9 +8,10 @@ import type { ExperienceRecord, TranslationDictionary } from "@/types";
 type Props = {
   records: ExperienceRecord[];
   items: TranslationDictionary["experience"]["items"];
+  seeMoreLabel: string;
 };
 
-export function ExperienceTimeline({ records, items }: Props) {
+export function ExperienceTimeline({ records, items, seeMoreLabel }: Props) {
   const clipPathId = useId().replace(/:/g, "");
   const containerRef = useRef<HTMLDivElement | null>(null);
   const itemRefs = useRef<Array<HTMLDivElement | null>>([]);
@@ -20,6 +21,7 @@ export function ExperienceTimeline({ records, items }: Props) {
 
   useEffect(() => {
     let rafId = 0;
+    let resizeObserver: ResizeObserver | null = null;
 
     const updateMarkerRatios = () => {
       const container = containerRef.current;
@@ -53,7 +55,7 @@ export function ExperienceTimeline({ records, items }: Props) {
       setProgress(nextProgress);
     };
 
-    const onScroll = () => {
+    const scheduleUpdate = () => {
       cancelAnimationFrame(rafId);
       rafId = requestAnimationFrame(() => {
         updateProgress();
@@ -61,17 +63,32 @@ export function ExperienceTimeline({ records, items }: Props) {
       });
     };
 
-    updateProgress();
-    updateMarkerRatios();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
+    scheduleUpdate();
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleUpdate);
+
+    if (typeof ResizeObserver !== "undefined") {
+      resizeObserver = new ResizeObserver(() => {
+        scheduleUpdate();
+      });
+
+      if (containerRef.current) {
+        resizeObserver.observe(containerRef.current);
+      }
+      itemRefs.current.forEach((item) => {
+        if (item) {
+          resizeObserver?.observe(item);
+        }
+      });
+    }
 
     return () => {
       cancelAnimationFrame(rafId);
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
+      window.removeEventListener("scroll", scheduleUpdate);
+      window.removeEventListener("resize", scheduleUpdate);
+      resizeObserver?.disconnect();
     };
-  }, []);
+  }, [records.length]);
 
   const safeTrackHeight = Math.max(trackHeight, 1);
   const progressHeight = safeTrackHeight * progress;
@@ -146,6 +163,7 @@ export function ExperienceTimeline({ records, items }: Props) {
               content={content}
               side={side}
               revealProgress={revealProgress}
+              seeMoreLabel={seeMoreLabel}
             />
           </div>
         );

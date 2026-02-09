@@ -2,61 +2,61 @@ import type { TranslationDictionary } from "@/types";
 
 export const fr: TranslationDictionary = {
   metadata: {
-    title: "Romain Paquereau | Leadership Technologie",
+    title: "Romain Paquereau | Leadership technologique",
     description:
-      "Profil executif pour des roles de Chief of Staff, Technology et Head of Tech Programs & Operations.",
+      "Profil exécutif pour des rôles de Chief of Staff, Technology et Head of Tech Programs & Operations.",
     siteName: "CV de Romain Paquereau"
   },
   nav: {
     about: "Profil",
-    experience: "Parcours profesionnle",
+    experience: "Parcours professionnel",
     education: "Formation",
     languages: "Langues",
-    skills: "Competences",
-    interests: "Interets",
+    skills: "Compétences",
+    interests: "Intérêts",
     contact: "Contact",
-    downloadCv: "Telecharger le CV",
+    downloadCv: "Télécharger le CV",
     cvHref: "https://example.com/romain-paquereau-cv.pdf"
   },
   hero: {
     firstName: "Romain",
     lastName: "Paquereau",
-    role: "Chief of Staff Technologie | Leader Programmes & Operations Tech",
-    location: "Region parisienne, France",
-    locationSubtext: "Ouvert a la relocation",
+    role: "Chief of Staff Technologie | Leader Programmes & Opérations Tech",
+    location: "Région parisienne, France",
+    locationSubtext: "Ouvert à la relocation",
     locationLabel: "Localisation",
-    ageLabel: "Age",
+    ageLabel: "Âge",
     ageValue: "33",
     ageUnit: "ans",
-    experienceLabel: "Experience",
+    experienceLabel: "Expérience",
     experienceValue: "11+ ans",
     intro:
-      "A l'intersection de la strategie, de l'execution et de la technologie pour accelerer les programmes, optimiser les operations et creer un impact mesurable.",
+      "À l'intersection de la stratégie, de l'exécution et de la technologie pour accélérer les programmes, optimiser les opérations et créer un impact mesurable.",
     ctaPrimary: "Me contacter",
-    ctaSecondary: "Voir l'experience",
+    ctaSecondary: "Voir l'expérience",
     birthDateIso: "1992-05-17"
   },
   about: {
-    title: "A propos",
-    body: "<b>Leader technologie et operations</b> avec <b>plus de 10 ans d'experience</b> dans le developpement de produits de mobilite numerique en <b>Europe et aux Etats-Unis</b>. J'ai pilote des <b>programmes SaaS et mobiles multi-pays</b>, gere des <b>budgets a huit chiffres</b> et mene une <b>execution cross-fonctionnelle</b> entre produit, engineering, finance et operations. Mon objectif est de transformer la <b>strategie en resultats mesurables</b> grace a une gouvernance de programme solide, l'<b>excellence operationnelle</b>, les outils internes et l'<b>automatisation</b>. Je vise des postes de direction tels que <b>Chief of Staff, Technology</b> et <b>Head of Tech Programs and Operations</b>, avec un fort interet pour la <b>transformation appuyee par l'IA</b>."
+    title: "À propos",
+    body: "<b>Leader technologie et opérations</b> avec <b>__EXPERIENCE_VALUE__ d'expérience</b> dans le développement de produits de mobilité numérique en <b>Europe et aux États-Unis</b>. J'ai piloté des <b>programmes SaaS et mobiles multi-pays</b>, géré des <b>budgets à huit chiffres</b> et mené une <b>exécution cross-fonctionnelle</b> entre produit, engineering, finance et opérations. Mon objectif est de transformer la <b>stratégie en résultats mesurables</b> grâce à une gouvernance de programme solide, l'<b>excellence opérationnelle</b>, les outils internes et l'<b>automatisation</b>. Je vise des postes de direction tels que <b>Chief of Staff, Technology</b> et <b>Head of Tech Programs and Operations</b>, avec un fort intérêt pour la <b>transformation appuyée par l'IA</b>."
   },
   experience: {
-    title: "Parcours profesionnle",
-    intro: "Experience professionnelle chez Free2move en pilotage de programmes, execution produit, operations et business development.",
+    title: "Parcours professionnel",
+    intro: "Expérience professionnelle chez Free2move en pilotage de programmes, exécution produit, opérations et business development.",
     items: {
       exp_1: {
         role: "Directeur de la gestion de projets",
         company: "Free2move",
-        location: "Europe et Etats-Unis",
+        location: "Europe et États-Unis",
         summary:
-          "A pilote des <b>programmes internationaux de grande envergure</b> couvrant le <b>SaaS</b>, le <b>mobile</b>, l'<b>automatisation</b>, la <b>gouvernance budgetaire</b> et la <b>transformation organisationnelle</b>.",
+          "A piloté des <b>programmes internationaux de grande envergure</b> couvrant le <b>SaaS</b>, le <b>mobile</b>, l'<b>automatisation</b>, la <b>gouvernance budgétaire</b> et la <b>transformation organisationnelle</b>.",
         achievements: [
-          "Supervision de <b>deploiements de plateformes SaaS</b> sur <b>2 000+ sites</b> dans <b>10 pays europeens</b>, permettant <b>60 000+ reservations mensuelles</b> et des operations stables au quotidien.",
-          "Pilotage du developpement et du deploiement d'une <b>application mobile d'autopartage</b> en Europe et aux Etats-Unis, supportant <b>5 000+ reservations quotidiennes</b> et ameliorant l'autonomie client.",
-          "Obtention de <b>40% d'economies annuelles</b> via l'optimisation des strategies de sourcing, la renegociation des contrats cles et la rationalisation des processus operationnels.",
-          "Animation d'une <b>taskforce d'automatisation</b> interne pour cartographier les processus, prioriser les cas d'usage et reduire les taches repetitives grace a la standardisation et a des <b>workflows low-code et no-code</b>, tout en accelerant des <b>initiatives d'adoption de l'IA</b> dans les equipes.",
-          "Pilotage d'un <b>budget Tech annuel a huit chiffres</b>, avec construction des previsions, suivi des realises et recommandations d'optimisation fondees sur l'analyse des ecarts pour le <b>CTO et la Finance</b>.",
-          "Direction de <b>programmes internationaux de grande envergure</b> avec <b>30+ specialistes IT</b>, en pilotant perimetre, risques et budgets, avec un reporting d'avancement clair pour les parties prenantes."
+          "Supervision de <b>déploiements de plateformes SaaS</b> sur <b>2 000+ sites</b> dans <b>10 pays européens</b>, permettant <b>60 000+ réservations mensuelles</b> et des opérations stables au quotidien.",
+          "Pilotage du développement et du déploiement d'une <b>application mobile d'autopartage</b> en Europe et aux États-Unis, supportant <b>5 000+ réservations quotidiennes</b> et améliorant l'autonomie client.",
+          "Obtention de <b>40% d'économies annuelles</b> via l'optimisation des stratégies de sourcing, la renégociation des contrats clés et la rationalisation des processus opérationnels.",
+          "Animation d'une <b>taskforce d'automatisation</b> interne pour cartographier les processus, prioriser les cas d'usage et réduire les tâches répétitives grâce à la standardisation et à des <b>workflows low-code et no-code</b>, tout en accélérant des <b>initiatives d'adoption de l'IA</b> dans les équipes.",
+          "Pilotage d'un <b>budget Tech annuel à huit chiffres</b>, avec construction des prévisions, suivi des réalisés et recommandations d'optimisation fondées sur l'analyse des écarts pour le <b>CTO et la Finance</b>.",
+          "Direction de <b>programmes internationaux de grande envergure</b> avec <b>30+ spécialistes IT</b>, en pilotant périmètre, risques et budgets, avec un reporting d'avancement clair pour les parties prenantes."
         ]
       },
       exp_2: {
@@ -64,13 +64,13 @@ export const fr: TranslationDictionary = {
         company: "Free2move",
         location: "Europe",
         summary:
-          "A pilote la <b>roadmap produit</b> et la <b>delivery Agile</b> pour des solutions de mobilite connectee, incluant des <b>systemes de location automatises</b> et des <b>technologies de flotte</b>.",
+          "A piloté la <b>roadmap produit</b> et la <b>delivery Agile</b> pour des solutions de mobilité connectée, incluant des <b>systèmes de location automatisés</b> et des <b>technologies de flotte</b>.",
         achievements: [
-          "Definition et communication de la <b>vision produit</b> et de la <b>roadmap pluri-trimestrielle</b>, en integrant les retours des parties prenantes et en priorisant les fonctionnalites a plus fort impact business et client.",
-          "Gestion du <b>backlog Agile</b> et des cycles de sprint pour une <b>equipe de 10 developpeurs</b>, avec clarification des priorites, levee des blocages et securisation d'une livraison reguliere.",
-          "Pilotage du <b>developpement end-to-end hardware et software</b> d'un systeme de location automatise, renforcant l'autonomie client, reduisant la charge des equipes en agence et ameliorant la qualite de service.",
-          "Negociation et deploiement de <b>solutions de flotte connectee via smartphone</b>, permettant le suivi des vehicules en temps reel, l'acces a distance et des operations quotidiennes plus fluides.",
-          "Preparation et consolidation de <b>reportings mensuels de performance et financiers</b> pour le management et les operations, en transformant des donnees complexes en tableaux de bord clairs et recommandations actionnables."
+          "Définition et communication de la <b>vision produit</b> et de la <b>roadmap pluri-trimestrielle</b>, en intégrant les retours des parties prenantes et en priorisant les fonctionnalités à plus fort impact business et client.",
+          "Gestion du <b>backlog Agile</b> et des cycles de sprint pour une <b>équipe de 10 développeurs</b>, avec clarification des priorités, levée des blocages et sécurisation d'une livraison régulière.",
+          "Pilotage du <b>développement end-to-end hardware et software</b> d'un système de location automatisé, renforçant l'autonomie client, réduisant la charge des équipes en agence et améliorant la qualité de service.",
+          "Négociation et déploiement de <b>solutions de flotte connectée via smartphone</b>, permettant le suivi des véhicules en temps réel, l'accès à distance et des opérations quotidiennes plus fluides.",
+          "Préparation et consolidation de <b>reportings mensuels de performance et financiers</b> pour le management et les opérations, en transformant des données complexes en tableaux de bord clairs et recommandations actionnables."
         ]
       },
       exp_3: {
@@ -78,12 +78,12 @@ export const fr: TranslationDictionary = {
         company: "Free2move",
         location: "Europe",
         summary:
-          "A developpe des <b>partenariats commerciaux</b> et des <b>initiatives de croissance digitale</b> sur plusieurs marches, en reliant les besoins clients au produit et a l'<b>execution go-to-market</b>.",
+          "A développé des <b>partenariats commerciaux</b> et des <b>initiatives de croissance digitale</b> sur plusieurs marchés, en reliant les besoins clients au produit et à l'<b>exécution go-to-market</b>.",
         achievements: [
-          "Developpement et gestion de partenariats commerciaux avec <b>30+ fournisseurs</b>, en etendant le reseau, en ameliorant les conditions tarifaires et en elevant la qualite de service pour les clients finaux.",
-          "Lancement et localisation de sites de location automobile dans <b>3 pays europeens</b>, en adaptant contenus et offres aux marches locaux afin de stimuler les reservations en ligne et la croissance internationale.",
-          "Collaboration etroite avec l'IT pour orienter des <b>ameliorations produit</b> basees sur les retours clients et les insights marche, renforcant l'offre, le taux de conversion et la retention.",
-          "Contribution a la <b>strategie SEO et digitale</b> via la creation de landing pages ciblees et la gestion de campagnes de backlinks, augmentant le trafic qualifie et la visibilite en ligne."
+          "Développement et gestion de partenariats commerciaux avec <b>30+ fournisseurs</b>, en étendant le réseau, en améliorant les conditions tarifaires et en élevant la qualité de service pour les clients finaux.",
+          "Lancement et localisation de sites de location automobile dans <b>3 pays européens</b>, en adaptant contenus et offres aux marchés locaux afin de stimuler les réservations en ligne et la croissance internationale.",
+          "Collaboration étroite avec l'IT pour orienter des <b>améliorations produit</b> basées sur les retours clients et les insights marché, renforçant l'offre, le taux de conversion et la rétention.",
+          "Contribution à la <b>stratégie SEO et digitale</b> via la création de landing pages ciblées et la gestion de campagnes de backlinks, augmentant le trafic qualifié et la visibilité en ligne."
         ]
       }
     }
@@ -92,42 +92,42 @@ export const fr: TranslationDictionary = {
     title: "Formation",
     schoolYears: "2010-2015",
     school:
-      "ISTEC, Institute of Higher Education in Business and Marketing, Paris - France",
+      "ISTEC, Institut d'enseignement supérieur en commerce et marketing, Paris - France",
     degree:
-      "Master in International Marketing of Luxury Goods and Services",
+      "Master en marketing international des biens et services de luxe",
     thesis:
-      "Thesis on start-up and corporate partnerships in open innovation",
+      "Mémoire sur les partenariats entre start-ups et grandes entreprises en innovation ouverte",
     exchanges:
-      "International exchange semesters, MUIC Bangkok (Thailand) and UCSC Milan (Italy)"
+      "Semestres d'échange international, MUIC Bangkok (Thaïlande) et UCSC Milan (Italie)"
   },
   languages: {
     title: "Langues",
     items: [
-      { name: "Francais", level: "Natif" },
+      { name: "Français", level: "Natif" },
       { name: "Anglais", level: "Courant" },
-      { name: "Espagnol", level: "Intermediaire" },
-      { name: "Indonesien", level: "Debutant" }
+      { name: "Espagnol", level: "Intermédiaire" },
+      { name: "Indonésien", level: "Débutant" }
     ]
   },
   skills: {
-    title: "Competences",
+    title: "Compétences",
     items: [
       "Gestion de programmes",
       "Gestion de portefeuille",
       "Leadership cross-fonctionnel",
-      "Planification strategique",
-      "Excellence operationnelle",
-      "Gestion des parties prenantes executives",
-      "Conception de modele operationnel",
-      "Gouvernance budgetaire",
-      "Strategie produit",
-      "Strategie d'automatisation",
+      "Planification stratégique",
+      "Excellence opérationnelle",
+      "Gestion des parties prenantes exécutives",
+      "Conception de modèle opérationnel",
+      "Gouvernance budgétaire",
+      "Stratégie produit",
+      "Stratégie d'automatisation",
       "Facilitation de l'adoption de l'IA",
-      "Prototypage assiste par IA (Vibe Coding)"
+      "Prototypage assisté par IA (Vibe Coding)"
     ]
   },
   tools: {
-    title: "Tools",
+    title: "Outils",
     items: [
       "n8n",
       "ChatGPT",
@@ -144,40 +144,41 @@ export const fr: TranslationDictionary = {
     ]
   },
   interests: {
-    title: "Centres d'interet",
+    title: "Centres d'intérêt",
     items: [
       "IA et automatisation",
-      "Investissement et marches financiers",
+      "Investissement et marchés financiers",
       "Entrepreneuriat",
-      "Voyage, trekking et plongee sous-marine",
-      "Nature et decouverte culturelle"
+      "Voyage, trekking et plongée sous-marine",
+      "Nature et découverte culturelle"
     ]
   },
   contact: {
     title: "Entrons en contact",
     subtitle:
-      "Ouvert aux roles executifs Technologie ou la strategie, l'excellence operationnelle et une execution scalable generent des resultats business.",
-    currentlyExploringLabel: "Currently exploring",
+      "Ouvert aux rôles exécutifs Technologie où la stratégie, l'excellence opérationnelle et une exécution scalable génèrent des résultats business.",
+    currentlyExploringLabel: "En recherche actuellement",
     currentlyExploring:
-      "Chief of Staff, Technology, Head of Tech Programs and Operations, and similar roles.",
+      "Chief of Staff, Technology, Head of Tech Programs and Operations, et rôles similaires.",
     locationLabel: "Localisation",
-    location: "Region parisienne (ouvert a la relocation)",
+    location: "Région parisienne (ouvert à la relocation)",
     primaryContactLabel: "Contact principal",
     email: "r.paquereau@mailistec.fr",
     linkedinLabel: "LinkedIn",
     linkedinText: "Voir le profil LinkedIn",
     linkedinHref:
       "https://www.linkedin.com/in/romain-paquereau-68270794?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-    ctaEmail: "Email me",
-    ctaLinkedin: "View LinkedIn"
+    ctaEmail: "M'écrire",
+    ctaLinkedin: "Voir LinkedIn"
   },
   footer: {
-    rights: "Tous droits reserves."
+    rights: "Tous droits réservés."
   },
   ui: {
     languageLabel: "Langue",
     themeLight: "Clair",
     themeDark: "Sombre",
-    navAriaLabel: "Navigation principale"
+    navAriaLabel: "Navigation principale",
+    seeMoreDetails: "Voir plus de détails"
   }
 };
