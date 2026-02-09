@@ -97,13 +97,7 @@ export default function LocalePage({ params }: Props) {
         </Section>
 
         <Section id="interests" title={dictionary.interests.title}>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {dictionary.interests.items.map((interest) => (
-              <div key={interest} className="glass-card p-4 text-sm">
-                {interest}
-              </div>
-            ))}
-          </div>
+          <SkillsGrid items={dictionary.interests.items} />
         </Section>
 
         <Section id="contact" title={dictionary.contact.title}>

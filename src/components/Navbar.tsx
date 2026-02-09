@@ -12,7 +12,7 @@ export function Navbar({ locale, dictionary }: Props) {
   const links = [
     { href: "#about", label: dictionary.nav.about },
     { href: "#experience", label: dictionary.nav.experience },
-    { href: "#education", label: dictionary.nav.education },
+    { href: "#skills", label: dictionary.nav.skills },
     { href: "#contact", label: dictionary.nav.contact }
   ];
 

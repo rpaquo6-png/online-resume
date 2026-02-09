@@ -13,9 +13,9 @@ export function Hero({ dictionary }: Props) {
 
   return (
     <section className="section-shell py-6 sm:py-8">
-      <div className="fade-up grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-stretch">
-        <div className="mx-auto w-full max-w-xs lg:mx-0 lg:w-auto lg:max-w-none lg:self-stretch">
-          <div className="mx-auto aspect-square w-full max-w-xs lg:mx-0 lg:h-full lg:w-auto lg:max-w-none">
+      <div className="fade-up grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-start">
+        <div className="mx-auto w-full max-w-xs lg:mx-0 lg:w-[19.5rem] lg:max-w-none">
+          <div className="mx-auto aspect-square w-full max-w-xs lg:mx-0 lg:max-w-none">
             <Image
               src="/images/profile-placeholder.jpg"
               alt={`${dictionary.hero.firstName} ${dictionary.hero.lastName}`}

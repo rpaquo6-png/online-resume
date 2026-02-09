@@ -36,7 +36,7 @@ export function LanguagesSection({ items }: Props) {
 
   return (
     <div ref={containerRef} className="w-full overflow-x-auto pb-1">
-      <div className="flex w-full min-w-max flex-nowrap items-stretch gap-3">
+      <div className="flex w-full min-w-max flex-nowrap items-stretch gap-5">
         {items.map((item, index) => (
           <LanguageCard
             key={item.name}

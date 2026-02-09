@@ -143,11 +143,11 @@ export const es: TranslationDictionary = {
   interests: {
     title: "Intereses",
     items: [
-      "Emprendimiento e inversion",
-      "Entusiasta de blockchain, web e IA",
-      "Idiomas y descubrimiento cultural",
-      "Viajes, trekking y deportes al aire libre",
-      "Observacion submarina y vida marina"
+      "IA y automatizacion",
+      "Inversion y mercados",
+      "Emprendimiento",
+      "Viajes, trekking y buceo",
+      "Naturaleza y descubrimiento cultural"
     ]
   },
   contact: {
