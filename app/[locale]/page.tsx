@@ -101,19 +101,23 @@ export default function LocalePage({ params }: Props) {
         </Section>
 
         <Section id="contact" title={dictionary.contact.title}>
-          <div className="glass-card">
-            <p className="mb-4 text-foreground/85">{dictionary.contact.body}</p>
-            <p className="mb-4 text-sm text-foreground/75">
-              {dictionary.contact.emailLabel}: 
-              <a href={`mailto:${dictionary.contact.email}`} className="font-semibold text-accent">
-                {dictionary.contact.email}
-              </a>
-            </p>
+          <p className="max-w-4xl text-foreground/90">
+            {dictionary.contact.currentlyExploringLabel}: {dictionary.contact.currentlyExploring}
+          </p>
+          <div className="mt-5 flex flex-wrap justify-center gap-3">
+            <a
+              href={dictionary.contact.linkedinHref}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex rounded-full border border-foreground/20 px-5 py-2.5 text-sm font-semibold text-foreground transition hover:border-accent hover:text-accent"
+            >
+              {dictionary.contact.ctaLinkedin}
+            </a>
             <a
               href={`mailto:${dictionary.contact.email}`}
               className="inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white"
             >
-              {dictionary.contact.cta}
+              {dictionary.contact.ctaEmail}
             </a>
           </div>
         </Section>

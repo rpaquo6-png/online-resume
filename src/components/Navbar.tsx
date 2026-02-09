@@ -35,12 +35,10 @@ export function Navbar({ locale, dictionary }: Props) {
               </a>
             ))}
             <a
-              href={dictionary.nav.cvHref}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex h-11 items-center rounded-full border px-5 text-sm transition hover:border-accent hover:text-accent"
+              href={`mailto:${dictionary.contact.email}`}
+              className="inline-flex h-11 items-center rounded-full border px-5 text-sm font-medium transition hover:border-accent hover:text-accent"
             >
-              {dictionary.nav.downloadCv}
+              {dictionary.contact.ctaEmail}
             </a>
           </nav>
 

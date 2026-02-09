@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { locales, type Locale } from "@/types";
 
-const localeOptions: Record<Locale, { short: string; label: string; flag: string }> = {
-  en: { short: "EN", label: "English", flag: "🇬🇧" },
-  fr: { short: "FR", label: "Français", flag: "🇫🇷" },
-  es: { short: "ES", label: "Español", flag: "🇪🇸" }
+const localeOptions: Record<Locale, { label: string; flag: string }> = {
+  en: { label: "English", flag: "🇬🇧" },
+  fr: { label: "Français", flag: "🇫🇷" },
+  es: { label: "Español", flag: "🇪🇸" }
 };
 
 type Props = {
@@ -58,8 +58,7 @@ export function LanguageSwitcher({ locale, ariaLabel }: Props) {
         onClick={() => setIsOpen((prev) => !prev)}
         className="inline-flex h-11 items-center gap-2 rounded-full border bg-background px-4 text-sm font-medium transition hover:border-accent hover:text-accent"
       >
-        <span aria-hidden="true">{current.flag}</span>
-        <span>{current.short}</span>
+        <span>{current.label}</span>
         <span aria-hidden="true">▾</span>
       </button>
 

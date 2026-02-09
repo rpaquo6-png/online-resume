@@ -34,6 +34,7 @@ export type TranslationDictionary = {
     locationLabel: string;
     ageLabel: string;
     ageValue: string;
+    ageUnit: string;
     experienceLabel: string;
     experienceValue: string;
     intro: string;
@@ -85,10 +86,18 @@ export type TranslationDictionary = {
   };
   contact: {
     title: string;
-    body: string;
-    emailLabel: string;
+    subtitle: string;
+    currentlyExploringLabel: string;
+    currentlyExploring: string;
+    locationLabel: string;
+    location: string;
+    primaryContactLabel: string;
     email: string;
-    cta: string;
+    linkedinLabel: string;
+    linkedinText: string;
+    linkedinHref: string;
+    ctaEmail: string;
+    ctaLinkedin: string;
   };
   footer: {
     rights: string;

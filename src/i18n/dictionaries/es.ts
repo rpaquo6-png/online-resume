@@ -27,7 +27,8 @@ export const es: TranslationDictionary = {
     locationLabel: "Ubicacion",
     ageLabel: "Edad",
     ageValue: "33",
-    experienceLabel: "Anos de experiencia",
+    ageUnit: "anos",
+    experienceLabel: "Experiencia",
     experienceValue: "11+ anos",
     intro:
       "Conecto estrategia, ejecucion y tecnologia para escalar programas, optimizar operaciones y generar impacto medible.",
@@ -154,10 +155,21 @@ export const es: TranslationDictionary = {
   },
   contact: {
     title: "Hablemos",
-    body: "Disponible para roles ejecutivos de tecnologia donde la planificacion estrategica y la excelencia operativa impulsen crecimiento.",
-    emailLabel: "Email",
-    email: "romain@example.com",
-    cta: "Iniciar conversacion"
+    subtitle:
+      "Disponible para roles ejecutivos de Tecnologia donde estrategia, excelencia operativa y ejecucion escalable impulsen resultados de negocio.",
+    currentlyExploringLabel: "Currently exploring",
+    currentlyExploring:
+      "Chief of Staff, Technology, Head of Tech Programs and Operations, and similar roles.",
+    locationLabel: "Ubicacion",
+    location: "Area de Paris (disponible para reubicacion)",
+    primaryContactLabel: "Contacto principal",
+    email: "r.paquereau@mailistec.fr",
+    linkedinLabel: "LinkedIn",
+    linkedinText: "Ver perfil de LinkedIn",
+    linkedinHref:
+      "https://www.linkedin.com/in/romain-paquereau-68270794?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    ctaEmail: "Email me",
+    ctaLinkedin: "View LinkedIn"
   },
   footer: {
     rights: "Todos los derechos reservados."

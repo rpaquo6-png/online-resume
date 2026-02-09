@@ -27,7 +27,8 @@ export const fr: TranslationDictionary = {
     locationLabel: "Localisation",
     ageLabel: "Age",
     ageValue: "33",
-    experienceLabel: "Annees d'experience",
+    ageUnit: "ans",
+    experienceLabel: "Experience",
     experienceValue: "11+ ans",
     intro:
       "A l'intersection de la strategie, de l'execution et de la technologie pour accelerer les programmes, optimiser les operations et creer un impact mesurable.",
@@ -154,10 +155,21 @@ export const fr: TranslationDictionary = {
   },
   contact: {
     title: "Entrons en contact",
-    body: "Ouvert aux roles executives technologie ou la planification strategique et l'excellence operationnelle accelerent la croissance.",
-    emailLabel: "Email",
-    email: "romain@example.com",
-    cta: "Demarrer un echange"
+    subtitle:
+      "Ouvert aux roles executifs Technologie ou la strategie, l'excellence operationnelle et une execution scalable generent des resultats business.",
+    currentlyExploringLabel: "Currently exploring",
+    currentlyExploring:
+      "Chief of Staff, Technology, Head of Tech Programs and Operations, and similar roles.",
+    locationLabel: "Localisation",
+    location: "Region parisienne (ouvert a la relocation)",
+    primaryContactLabel: "Contact principal",
+    email: "r.paquereau@mailistec.fr",
+    linkedinLabel: "LinkedIn",
+    linkedinText: "Voir le profil LinkedIn",
+    linkedinHref:
+      "https://www.linkedin.com/in/romain-paquereau-68270794?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    ctaEmail: "Email me",
+    ctaLinkedin: "View LinkedIn"
   },
   footer: {
     rights: "Tous droits reserves."

@@ -30,7 +30,7 @@ export function Hero({ dictionary }: Props) {
           <p className="mt-4 text-foreground/80">{dictionary.hero.intro}</p>
 
           <dl className="mt-5 grid gap-2.5 sm:grid-cols-3">
-            <div className="h-full min-h-[108px] rounded-2xl border border-black/10 bg-white px-2.5 py-2 shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)] sm:px-3 sm:py-2.5">
+            <div className="flex h-full min-h-[108px] flex-col justify-start rounded-2xl border border-black/10 bg-white px-2.5 py-2 shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)] sm:px-3 sm:py-2.5">
               <dt className="inline-flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.08em] text-foreground/55 sm:text-xs">
                 <svg viewBox="0 0 24 24" className="h-4 w-4 text-black/55" aria-hidden="true">
                   <path
@@ -41,11 +41,11 @@ export function Hero({ dictionary }: Props) {
                 {dictionary.hero.ageLabel}
               </dt>
               <dd className="mt-1 text-2xl font-bold leading-none text-black sm:text-3xl">
-                {dictionary.hero.ageValue}
+                {dictionary.hero.ageValue} {dictionary.hero.ageUnit}
               </dd>
             </div>
 
-            <div className="h-full min-h-[108px] rounded-2xl border border-black/10 bg-white px-2.5 py-2 shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)] sm:px-3 sm:py-2.5">
+            <div className="flex h-full min-h-[108px] flex-col justify-start rounded-2xl border border-black/10 bg-white px-2.5 py-2 shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)] sm:px-3 sm:py-2.5">
               <dt className="inline-flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.08em] text-foreground/55 sm:text-xs">
                 <svg viewBox="0 0 24 24" className="h-4 w-4 text-black/55" aria-hidden="true">
                   <path
@@ -60,7 +60,7 @@ export function Hero({ dictionary }: Props) {
               </dd>
             </div>
 
-            <div className="h-full min-h-[108px] rounded-2xl border border-black/10 bg-white px-2.5 py-2 shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)] sm:px-3 sm:py-2.5">
+            <div className="flex h-full min-h-[108px] flex-col justify-start rounded-2xl border border-black/10 bg-white px-2.5 py-2 shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)] sm:px-3 sm:py-2.5">
               <dt className="inline-flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.08em] text-foreground/55 sm:text-xs">
                 <svg viewBox="0 0 24 24" className="h-4 w-4 text-black/55" aria-hidden="true">
                   <path

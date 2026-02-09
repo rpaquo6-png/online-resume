@@ -27,7 +27,8 @@ export const en: TranslationDictionary = {
     locationLabel: "Location",
     ageLabel: "Age",
     ageValue: "33",
-    experienceLabel: "Years of experience",
+    ageUnit: "years",
+    experienceLabel: "Experience",
     experienceValue: "11+ years",
     intro:
       "Bridging strategy, execution, and technology to scale programs, streamline operations, and drive measurable business outcomes.",
@@ -154,10 +155,21 @@ export const en: TranslationDictionary = {
   },
   contact: {
     title: "Let's Connect",
-    body: "Open to executive technology roles where strategic planning and operational excellence are core growth drivers.",
-    emailLabel: "Email",
-    email: "romain@example.com",
-    cta: "Start a conversation"
+    subtitle:
+      "Open to executive Technology roles where strategy, operational excellence, and scalable execution drive business outcomes.",
+    currentlyExploringLabel: "Currently exploring",
+    currentlyExploring:
+      "Chief of Staff, Technology, Head of Tech Programs and Operations, and similar roles.",
+    locationLabel: "Location",
+    location: "Paris area (open to relocation)",
+    primaryContactLabel: "Primary contact",
+    email: "r.paquereau@mailistec.fr",
+    linkedinLabel: "LinkedIn",
+    linkedinText: "View LinkedIn Profile",
+    linkedinHref:
+      "https://www.linkedin.com/in/romain-paquereau-68270794?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    ctaEmail: "Email me",
+    ctaLinkedin: "View LinkedIn"
   },
   footer: {
     rights: "All rights reserved."
