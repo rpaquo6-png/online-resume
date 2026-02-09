@@ -13,9 +13,9 @@ export function Hero({ dictionary }: Props) {
 
   return (
     <section className="section-shell py-6 sm:py-8">
-      <div className="fade-up grid gap-8 lg:grid-cols-[1fr_2fr] lg:grid-rows-[auto_auto] lg:items-start">
-        <div className="mx-auto w-full max-w-xs lg:mx-0 lg:h-full lg:max-w-none">
-          <div className="mx-auto aspect-square w-full max-w-xs lg:h-full lg:w-auto">
+      <div className="fade-up grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-stretch">
+        <div className="mx-auto w-full max-w-xs lg:mx-0 lg:w-auto lg:max-w-none lg:self-stretch">
+          <div className="mx-auto aspect-square w-full max-w-xs lg:mx-0 lg:h-full lg:w-auto lg:max-w-none">
             <Image
               src="/images/profile-placeholder.jpg"
               alt={`${dictionary.hero.firstName} ${dictionary.hero.lastName}`}
@@ -35,17 +35,17 @@ export function Hero({ dictionary }: Props) {
           <p className="mt-4 text-foreground/80">{dictionary.hero.intro}</p>
 
           <dl className="mt-6 grid gap-3 sm:grid-cols-3">
-            <div className="glass-card p-4">
+            <div className="glass-card p-3">
               <dt className="text-xs uppercase tracking-wide text-foreground/70">{dictionary.hero.ageLabel}</dt>
-              <dd className="mt-1 text-lg font-semibold">{age} ans</dd>
+              <dd className="mt-0.5 text-base font-semibold">{age}</dd>
             </div>
-            <div className="glass-card p-4">
+            <div className="glass-card p-3">
               <dt className="text-xs uppercase tracking-wide text-foreground/70">{dictionary.hero.experienceLabel}</dt>
-              <dd className="mt-1 text-lg font-semibold">{yearsOfExperience} ans</dd>
+              <dd className="mt-0.5 text-base font-semibold">{yearsOfExperience}</dd>
             </div>
-            <div className="glass-card p-4">
+            <div className="glass-card p-3">
               <dt className="text-xs uppercase tracking-wide text-foreground/70">{dictionary.hero.locationLabel}</dt>
-              <dd className="mt-1 text-sm font-medium">{dictionary.hero.location}</dd>
+              <dd className="mt-0.5 text-sm font-medium">{dictionary.hero.location}</dd>
             </div>
           </dl>
         </div>

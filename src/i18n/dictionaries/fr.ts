@@ -26,6 +26,7 @@ export const fr: TranslationDictionary = {
     locationLabel: "Localisation",
     ageLabel: "Age",
     experienceLabel: "Annees d'experience",
+    yearsUnit: "ans",
     intro:
       "A l'intersection de la strategie, de l'execution et de la technologie pour accelerer les programmes, optimiser les operations et creer un impact mesurable.",
     ctaPrimary: "Me contacter",
@@ -34,44 +35,39 @@ export const fr: TranslationDictionary = {
   },
   about: {
     title: "A propos",
-    body: "Operateur experimente avec un solide historique d'optimisation des processus et de pilotage d'initiatives tech a grande echelle en Europe. Delivre des resultats par l'analyse rigoureuse, l'automatisation et la collaboration cross-fonctionnelle. Souhaite accelerer la croissance dans un environnement dynamique."
+    body: "<b>Leader technologie et operations</b> avec <b>plus de 10 ans d'experience</b> dans le developpement de produits de mobilite numerique en <b>Europe et aux Etats-Unis</b>. J'ai pilote des <b>programmes SaaS et mobiles multi-pays</b>, gere des <b>budgets a huit chiffres</b> et mene une <b>execution cross-fonctionnelle</b> entre produit, engineering, finance et operations. Mon objectif est de transformer la <b>strategie en resultats mesurables</b> grace a une gouvernance de programme solide, l'<b>excellence operationnelle</b>, les outils internes et l'<b>automatisation</b>. Je vise des postes de direction tels que <b>Chief of Staff, Technology</b> et <b>Head of Tech Programs and Operations</b>, avec un fort interet pour la <b>transformation appuyee par l'IA</b>."
   },
   experience: {
     title: "Parcours profesionnle",
     intro: "Experience professionnelle chez Free2move en pilotage de programmes, execution produit, operations et business development.",
     items: {
       exp_1: {
-        role: "Head of Project Manager",
+        role: "Directeur de la gestion de projets",
         company: "Free2move",
         location: "Europe et Etats-Unis",
         summary:
-          "Pilotage de programmes internationaux a grande echelle sur des sujets SaaS, mobile, automatisation, gouvernance budgetaire et transformation organisationnelle.",
+          "A pilote des <b>programmes internationaux de grande envergure</b> couvrant le <b>SaaS</b>, le <b>mobile</b>, l'<b>automatisation</b>, la <b>gouvernance budgetaire</b> et la <b>transformation organisationnelle</b>.",
         achievements: [
-          "Supervision de deploiements SaaS sur plus de 2 000 sites dans 10 pays europeens, avec plus de 60 000 reservations mensuelles et une exploitation stable.",
-          "Pilotage du developpement et du deploiement d'une application mobile d'autopartage en Europe et aux Etats-Unis, supportant plus de 5 000 reservations par jour.",
-          "Obtention de 40% d'economies annuelles via optimisation du sourcing, renegociation des contrats cles et rationalisation des processus.",
-          "Direction de plusieurs projets internationaux avec 30+ specialistes IT en pilotant perimetre, risques, budgets et reporting aux parties prenantes.",
-          "Conception et lancement en 6 mois d'une plateforme SaaS cloud de location automobile, adaptee aux contraintes reglementaires locales.",
-          "Pilotage des RFQ avec partenaires techniques et fournisseurs sur des projets a budget annuel jusqu'a 7 chiffres.",
-          "Contribution aux integrations M&A et a la reorganisation en alignant outils, processus et conduite du changement.",
-          "Conception et supervision des processus de capitalisation et depreciation des actifs pour 200+ collaborateurs.",
-          "Animation d'une taskforce d'automatisation interne pour cartographier les processus, prioriser les cas d'usage et reduire les taches repetitives.",
-          "Construction de business cases d'internalisation pour reduire la dependance aux prestataires externes.",
-          "Pilotage d'un budget Tech annuel a 8 chiffres avec previsions, analyse des ecarts et recommandations d'optimisation au CTO et a la Finance."
+          "Supervision de <b>deploiements de plateformes SaaS</b> sur <b>2 000+ sites</b> dans <b>10 pays europeens</b>, permettant <b>60 000+ reservations mensuelles</b> et des operations stables au quotidien.",
+          "Pilotage du developpement et du deploiement d'une <b>application mobile d'autopartage</b> en Europe et aux Etats-Unis, supportant <b>5 000+ reservations quotidiennes</b> et ameliorant l'autonomie client.",
+          "Obtention de <b>40% d'economies annuelles</b> via l'optimisation des strategies de sourcing, la renegociation des contrats cles et la rationalisation des processus operationnels.",
+          "Animation d'une <b>taskforce d'automatisation</b> interne pour cartographier les processus, prioriser les cas d'usage et reduire les taches repetitives grace a la standardisation et a des <b>workflows low-code et no-code</b>, tout en accelerant des <b>initiatives d'adoption de l'IA</b> dans les equipes.",
+          "Pilotage d'un <b>budget Tech annuel a huit chiffres</b>, avec construction des previsions, suivi des realises et recommandations d'optimisation fondees sur l'analyse des ecarts pour le <b>CTO et la Finance</b>.",
+          "Direction de <b>programmes internationaux de grande envergure</b> avec <b>30+ specialistes IT</b>, en pilotant perimetre, risques et budgets, avec un reporting d'avancement clair pour les parties prenantes."
         ]
       },
       exp_2: {
-        role: "IT Project Manager",
+        role: "Chef de projet technologique",
         company: "Free2move",
         location: "Europe",
         summary:
-          "Pilotage de l'execution produit et delivery sur des initiatives software, hardware et flotte connectee dans un cadre Agile.",
+          "A pilote la <b>roadmap produit</b> et la <b>delivery Agile</b> pour des solutions de mobilite connectee, incluant des <b>systemes de location automatises</b> et des <b>technologies de flotte</b>.",
         achievements: [
-          "Definition et communication de la vision produit et de la roadmap pluri-trimestrielle avec priorisation des fonctionnalites a plus fort impact.",
-          "Gestion du backlog Agile et des sprints d'une equipe de 10 developpeurs pour garantir une livraison reguliere.",
-          "Pilotage de bout en bout du developpement hardware et software d'un systeme de location automatise.",
-          "Negociation et mise en place de solutions de flotte connectee via smartphone pour le suivi temps reel et l'acces a distance.",
-          "Preparation et consolidation de reportings mensuels de performance et financiers pour le management et les operations."
+          "Definition et communication de la <b>vision produit</b> et de la <b>roadmap pluri-trimestrielle</b>, en integrant les retours des parties prenantes et en priorisant les fonctionnalites a plus fort impact business et client.",
+          "Gestion du <b>backlog Agile</b> et des cycles de sprint pour une <b>equipe de 10 developpeurs</b>, avec clarification des priorites, levee des blocages et securisation d'une livraison reguliere.",
+          "Pilotage du <b>developpement end-to-end hardware et software</b> d'un systeme de location automatise, renforcant l'autonomie client, reduisant la charge des equipes en agence et ameliorant la qualite de service.",
+          "Negociation et deploiement de <b>solutions de flotte connectee via smartphone</b>, permettant le suivi des vehicules en temps reel, l'acces a distance et des operations quotidiennes plus fluides.",
+          "Preparation et consolidation de <b>reportings mensuels de performance et financiers</b> pour le management et les operations, en transformant des donnees complexes en tableaux de bord clairs et recommandations actionnables."
         ]
       },
       exp_3: {
@@ -79,13 +75,12 @@ export const fr: TranslationDictionary = {
         company: "Free2move",
         location: "Europe",
         summary:
-          "Developpement de partenariats et d'initiatives de croissance combinant business development, strategie digitale, localisation et marketing.",
+          "A developpe des <b>partenariats commerciaux</b> et des <b>initiatives de croissance digitale</b> sur plusieurs marches, en reliant les besoins clients au produit et a l'<b>execution go-to-market</b>.",
         achievements: [
-          "Developpement et gestion de partenariats commerciaux avec 30+ fournisseurs, ameliorant couverture reseau, conditions tarifaires et qualite de service.",
-          "Collaboration avec l'IT pour orienter les evolutions produit a partir des retours clients et analyses de marche.",
-          "Lancement et localisation de sites web de location automobile dans 3 pays europeens pour soutenir la croissance internationale.",
-          "Contribution a la strategie SEO via landing pages ciblees et campagnes de backlinks, augmentant le trafic qualifie.",
-          "Conception de supports marketing et communication web/print alignes aux standards de marque et aux campagnes commerciales."
+          "Developpement et gestion de partenariats commerciaux avec <b>30+ fournisseurs</b>, en etendant le reseau, en ameliorant les conditions tarifaires et en elevant la qualite de service pour les clients finaux.",
+          "Lancement et localisation de sites de location automobile dans <b>3 pays europeens</b>, en adaptant contenus et offres aux marches locaux afin de stimuler les reservations en ligne et la croissance internationale.",
+          "Collaboration etroite avec l'IT pour orienter des <b>ameliorations produit</b> basees sur les retours clients et les insights marche, renforcant l'offre, le taux de conversion et la retention.",
+          "Contribution a la <b>strategie SEO et digitale</b> via la creation de landing pages ciblees et la gestion de campagnes de backlinks, augmentant le trafic qualifie et la visibilite en ligne."
         ]
       }
     }
@@ -112,13 +107,37 @@ export const fr: TranslationDictionary = {
     ]
   },
   skills: {
-    title: "Competences professionnelles",
+    title: "Competences",
     items: [
-      "Gestion de projet",
-      "Gestion des parties prenantes",
-      "Delivery produit",
-      "Automatisation et IA (n8n)",
-      "Suites de productivite (G-Suite)"
+      "Gestion de programmes",
+      "Gestion de portefeuille",
+      "Leadership cross-fonctionnel",
+      "Planification strategique",
+      "Excellence operationnelle",
+      "Gestion des parties prenantes executives",
+      "Conception de modele operationnel",
+      "Gouvernance budgetaire",
+      "Strategie produit",
+      "Strategie d'automatisation",
+      "Facilitation de l'adoption de l'IA",
+      "Prototypage assiste par IA (Vibe Coding)"
+    ]
+  },
+  tools: {
+    title: "Tools",
+    items: [
+      "n8n",
+      "ChatGPT",
+      "Codex (OpenAI)",
+      "Google Apps Script",
+      "Airtable",
+      "Jira",
+      "Notion",
+      "Google Workspace",
+      "Google Colab",
+      "Gemini",
+      "Slack",
+      "Microsoft Office"
     ]
   },
   interests: {

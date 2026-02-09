@@ -34,16 +34,22 @@ export function ExperienceCard({ record, content, side, revealProgress }: Props)
         {content.role}
       </h3>
       <p className="text-foreground/80">{content.company}</p>
-      <p className="mt-3 text-foreground/85">{content.summary}</p>
+      <p
+        className="mt-3 text-justify text-foreground/85 [&_b]:font-normal"
+        dangerouslySetInnerHTML={{ __html: content.summary }}
+      />
 
       {content.achievements.length > 0 ? (
         <details className="mt-4 text-sm">
           <summary className="cursor-pointer font-medium transition-colors duration-300 ease-out" style={{ color: seeMoreColor }}>
             See more details
           </summary>
-          <ul className="mt-3 list-disc space-y-2 pl-5 text-foreground/85">
-            {content.achievements.map((achievement) => (
-              <li key={achievement}>{achievement}</li>
+          <ul className="mt-3 list-disc space-y-2 pl-5 text-justify text-foreground/85">
+            {content.achievements.map((achievement, index) => (
+              <li
+                key={`${record.id}-achievement-${index}`}
+                dangerouslySetInnerHTML={{ __html: achievement }}
+              />
             ))}
           </ul>
         </details>

@@ -33,6 +33,7 @@ export type TranslationDictionary = {
     locationLabel: string;
     ageLabel: string;
     experienceLabel: string;
+    yearsUnit: string;
     intro: string;
     ctaPrimary: string;
     ctaSecondary: string;
@@ -69,6 +70,10 @@ export type TranslationDictionary = {
     items: Array<{ name: string; level: string }>;
   };
   skills: {
+    title: string;
+    items: string[];
+  };
+  tools: {
     title: string;
     items: string[];
   };

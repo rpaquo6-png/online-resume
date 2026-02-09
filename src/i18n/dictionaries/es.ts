@@ -26,6 +26,7 @@ export const es: TranslationDictionary = {
     locationLabel: "Ubicacion",
     ageLabel: "Edad",
     experienceLabel: "Anos de experiencia",
+    yearsUnit: "anos",
     intro:
       "Conecto estrategia, ejecucion y tecnologia para escalar programas, optimizar operaciones y generar impacto medible.",
     ctaPrimary: "Contactarme",
@@ -34,44 +35,39 @@ export const es: TranslationDictionary = {
   },
   about: {
     title: "Sobre mi",
-    body: "Operador experimentado con historial de optimizacion de procesos y liderazgo de iniciativas tecnologicas de gran escala en Europa. Entrega resultados mediante analisis riguroso, automatizacion y trabajo cross-funcional. Busca acelerar crecimiento en un entorno dinamico."
+    body: "<b>Lider de tecnologia y operaciones</b> con <b>mas de 10 anos de experiencia</b> escalando productos de movilidad digital en <b>Europa y Estados Unidos</b>. He liderado <b>programas SaaS y moviles en varios paises</b>, gestionado <b>presupuestos de ocho cifras</b> e impulsado la <b>ejecucion cross-funcional</b> entre producto, ingenieria, finanzas y operaciones. Mi enfoque es convertir la <b>estrategia en resultados medibles</b> mediante una gobernanza de programas solida, <b>excelencia operativa</b>, herramientas internas y <b>automatizacion</b>. Busco roles ejecutivos como <b>Chief of Staff, Technology</b> y <b>Head of Tech Programs and Operations</b>, con un fuerte interes en la <b>transformacion habilitada por IA</b>."
   },
   experience: {
     title: "Trayectoria profesional",
     intro: "Experiencia profesional en Free2move en gestion de programas, ejecucion de producto, operaciones y desarrollo de negocio.",
     items: {
       exp_1: {
-        role: "Head of Project Manager",
+        role: "Director de Gestion de Proyectos",
         company: "Free2move",
         location: "Europa y Estados Unidos",
         summary:
-          "Lidere programas internacionales de gran escala en SaaS, mobile, automatizacion, gobernanza presupuestaria y transformacion organizativa.",
+          "Lidere <b>programas internacionales de gran escala</b> en <b>SaaS</b>, <b>mobile</b>, <b>automatizacion</b>, <b>gobernanza presupuestaria</b> y <b>transformacion organizativa</b>.",
         achievements: [
-          "Supervise despliegues SaaS en mas de 2.000 sitios de 10 paises europeos, con mas de 60.000 reservas mensuales y operacion estable.",
-          "Impulse el desarrollo y despliegue de una app movil de car sharing en Europa y EE.UU., soportando mas de 5.000 reservas diarias.",
-          "Logre un 40% de ahorro anual optimizando sourcing, renegociando contratos clave y simplificando procesos operativos.",
-          "Dirigi multiples proyectos internacionales con mas de 30 especialistas IT, gestionando alcance, riesgos, presupuestos y reporting.",
-          "Disene y lance en 6 meses una plataforma SaaS cloud de alquiler de coches, adaptada a requisitos regulatorios locales.",
-          "Lidere procesos RFQ con proveedores y socios tecnicos en proyectos con presupuestos anuales de hasta siete cifras.",
-          "Contribui a integraciones de M&A y reestructuracion organizativa alineando herramientas, procesos y gestion del cambio.",
-          "Disene y supervise procesos de capitalizacion y depreciacion de activos para mas de 200 empleados.",
-          "Lidere una taskforce interna de automatizacion para mapear procesos, priorizar casos de uso y reducir tareas repetitivas.",
-          "Desarrolle business cases de internalizacion para reducir dependencia de proveedores externos.",
-          "Gestione un presupuesto anual Tech de ocho cifras con forecast, analisis de desviaciones y recomendaciones al CTO y Finanzas."
+          "Supervise <b>despliegues de plataformas SaaS</b> en <b>2.000+ sitios</b> de <b>10 paises europeos</b>, habilitando <b>60.000+ reservas mensuales</b> y operaciones estables en el dia a dia.",
+          "Impulse el desarrollo y despliegue de una <b>app movil de car-sharing</b> en Europa y EE.UU., soportando <b>5.000+ reservas diarias</b> y mejorando el autoservicio del cliente.",
+          "Logre <b>40% de ahorro anual</b> optimizando estrategias de sourcing, renegociando contratos clave y simplificando procesos operativos centrales.",
+          "Lidere una <b>taskforce interna de automatizacion</b> que mapeo procesos, priorizo casos de uso y redujo trabajo repetitivo mediante estandarizacion y <b>flujos low-code y no-code</b>, mientras impulsaba <b>iniciativas de adopcion de IA</b> en los equipos.",
+          "Gestione un <b>presupuesto anual Tech de ocho cifras</b>, construyendo forecasts, siguiendo resultados reales y aportando analisis de desviaciones y recomendaciones de optimizacion al <b>CTO y Finanzas</b>.",
+          "Lidere multiples <b>programas internacionales de gran escala</b> con <b>30+ especialistas IT</b>, gestionando alcance, riesgos y presupuestos y entregando reportes de avance claros a stakeholders."
         ]
       },
       exp_2: {
-        role: "IT Project Manager",
+        role: "Gerente de Proyectos Tecnologicos",
         company: "Free2move",
         location: "Europa",
         summary:
-          "Lidere la ejecucion de producto y delivery en iniciativas software, hardware y de flota conectada en entorno Agile.",
+          "Fui responsable de la <b>hoja de ruta de producto</b> y la <b>entrega Agile</b> para soluciones de movilidad conectada, incluidas <b>plataformas de alquiler automatizado</b> y <b>tecnologia de flota</b>.",
         achievements: [
-          "Defini y comunique vision de producto y roadmap trimestral, priorizando funcionalidades de mayor impacto.",
-          "Gestione backlog Agile y sprints de un equipo de 10 desarrolladores para asegurar entrega continua.",
-          "Lidere end-to-end el desarrollo hardware y software de un sistema automatizado de alquiler.",
-          "Negocie e implemente soluciones de flota conectada via smartphone para tracking en tiempo real y acceso remoto.",
-          "Prepare y consolide reportes mensuales de rendimiento y finanzas para direccion y operaciones."
+          "Defini y comunique la <b>vision de producto</b> y la <b>hoja de ruta multi-trimestral</b>, incorporando feedback de stakeholders y priorizando funcionalidades con mayor impacto en negocio y cliente.",
+          "Gestione el <b>backlog Agile</b> y los ciclos de sprint para un <b>equipo de desarrollo de 10 personas</b>, aclarando prioridades, eliminando bloqueos y asegurando una entrega constante contra objetivos.",
+          "Lidere el <b>desarrollo end-to-end de hardware y software</b> de un sistema de alquiler automatizado, mejorando la autonomia del cliente, reduciendo la carga en mostrador y elevando la calidad del servicio.",
+          "Negocie e implemente <b>soluciones de flota conectada basadas en smartphone</b>, habilitando seguimiento vehicular en tiempo real, acceso remoto a vehiculos y operaciones mas fluidas en el dia a dia.",
+          "Prepare y consolide <b>reportes mensuales de rendimiento y finanzas</b> para management y operaciones, convirtiendo datos complejos en dashboards claros y recomendaciones accionables."
         ]
       },
       exp_3: {
@@ -79,13 +75,12 @@ export const es: TranslationDictionary = {
         company: "Free2move",
         location: "Europa",
         summary:
-          "Desarrolle alianzas e iniciativas de crecimiento combinando desarrollo comercial, estrategia digital, localizacion y marketing.",
+          "Amplie <b>alianzas comerciales</b> e <b>iniciativas de crecimiento digital</b> en multiples mercados, conectando necesidades de clientes con el producto y la <b>ejecucion go-to-market</b>.",
         achievements: [
-          "Desarrolle y gestione alianzas comerciales con mas de 30 proveedores, mejorando cobertura, precios y calidad de servicio.",
-          "Colabore con IT para orientar mejoras de producto a partir de feedback de clientes e insights de mercado.",
-          "Lance y localice webs de alquiler de coches en 3 paises europeos para impulsar reservas online y crecimiento internacional.",
-          "Contribui a la estrategia SEO mediante landing pages y campanas de backlinks, aumentando trafico cualificado.",
-          "Disene materiales de marketing y comunicacion web/print alineados con marca y campanas comerciales."
+          "Desarrolle y gestione alianzas comerciales con <b>30+ proveedores</b>, expandiendo la red, mejorando condiciones de precio y elevando la calidad de servicio para clientes finales.",
+          "Lance y localice sitios web de alquiler de autos en <b>3 paises europeos</b>, adaptando contenido y ofertas a mercados locales e impulsando reservas online y crecimiento internacional.",
+          "Colabore estrechamente con IT para definir <b>mejoras de producto</b> basadas en feedback de clientes e insights de mercado, fortaleciendo la propuesta, la tasa de cierre y la retencion.",
+          "Contribui a la <b>estrategia SEO y digital</b> creando landing pages segmentadas y gestionando campanas de backlinks, aumentando trafico cualificado y visibilidad online."
         ]
       }
     }
@@ -112,13 +107,37 @@ export const es: TranslationDictionary = {
     ]
   },
   skills: {
-    title: "Habilidades profesionales",
+    title: "Habilidades",
     items: [
-      "Gestion de proyectos",
-      "Gestion de stakeholders",
-      "Entrega de producto",
-      "Automatizacion e IA (n8n)",
-      "Suites de productividad (G-Suite)"
+      "Gestion de programas",
+      "Gestion de portafolio",
+      "Liderazgo cross-funcional",
+      "Planificacion estrategica",
+      "Excelencia operativa",
+      "Gestion ejecutiva de stakeholders",
+      "Diseno de modelo operativo",
+      "Gobernanza presupuestaria",
+      "Estrategia de producto",
+      "Estrategia de automatizacion",
+      "Habilitacion de adopcion de IA",
+      "Prototipado asistido por IA (Vibe Coding)"
+    ]
+  },
+  tools: {
+    title: "Tools",
+    items: [
+      "n8n",
+      "ChatGPT",
+      "Codex (OpenAI)",
+      "Google Apps Script",
+      "Airtable",
+      "Jira",
+      "Notion",
+      "Google Workspace",
+      "Google Colab",
+      "Gemini",
+      "Slack",
+      "Microsoft Office"
     ]
   },
   interests: {

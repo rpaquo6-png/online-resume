@@ -70,7 +70,10 @@ export default function LocalePage({ params }: Props) {
         <Hero dictionary={dictionary} />
 
         <Section id="about" title={dictionary.about.title}>
-          <div className="glass-card text-foreground/90">{dictionary.about.body}</div>
+          <div
+            className="text-justify text-foreground/90 [&_b]:font-normal [&_b]:text-blue-600"
+            dangerouslySetInnerHTML={{ __html: dictionary.about.body }}
+          />
         </Section>
 
         <Section id="experience" title={dictionary.experience.title}>
@@ -81,12 +84,16 @@ export default function LocalePage({ params }: Props) {
           <ExperienceTimeline records={timelineRecords} items={timelineItems} />
         </Section>
 
-        <Section id="languages" title={dictionary.languages.title}>
-          <LanguagesSection items={sortedLanguages} />
-        </Section>
-
         <Section id="skills" title={dictionary.skills.title}>
           <SkillsGrid items={dictionary.skills.items} />
+        </Section>
+
+        <Section id="tools" title={dictionary.tools.title}>
+          <SkillsGrid items={dictionary.tools.items} />
+        </Section>
+
+        <Section id="languages" title={dictionary.languages.title}>
+          <LanguagesSection items={sortedLanguages} />
         </Section>
 
         <Section id="interests" title={dictionary.interests.title}>
