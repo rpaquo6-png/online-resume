@@ -35,17 +35,19 @@ export function LanguagesSection({ items }: Props) {
   }, [hasAnimated]);
 
   return (
-    <div ref={containerRef} className="w-full overflow-x-auto pb-1">
-      <div className="flex w-full min-w-max flex-nowrap items-stretch gap-5">
-        {items.map((item, index) => (
-          <LanguageCard
-            key={item.name}
-            name={item.name}
-            level={item.level}
-            animate={hasAnimated}
-            delayMs={index * 120}
-          />
-        ))}
+    <div ref={containerRef} className="w-full pb-2 pt-1 md:pb-0 md:pt-0">
+      <div className="overflow-x-auto md:overflow-visible">
+        <div className="flex w-full min-w-max flex-nowrap items-stretch gap-5 py-1 md:py-0">
+          {items.map((item, index) => (
+            <LanguageCard
+              key={item.name}
+              name={item.name}
+              level={item.level}
+              animate={hasAnimated}
+              delayMs={index * 120}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

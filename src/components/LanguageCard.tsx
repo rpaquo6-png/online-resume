@@ -37,7 +37,7 @@ export function LanguageCard({ name, level, animate = true, delayMs = 0 }: Props
   const strokeDashoffset = animate ? targetStrokeDashoffset : circumference;
 
   return (
-    <div className="glass-card flex min-w-[190px] flex-1 basis-0 flex-col items-center gap-3 p-4 text-center">
+    <div className="glass-card flex min-w-[190px] flex-1 basis-0 flex-col items-center gap-3 p-4 text-center shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)]">
       <div className="relative h-24 w-24" aria-label={`${name}: ${level}`}>
         <svg className="-rotate-90" width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
           <circle

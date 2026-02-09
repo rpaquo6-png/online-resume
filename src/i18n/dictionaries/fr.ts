@@ -22,11 +22,13 @@ export const fr: TranslationDictionary = {
     firstName: "Romain",
     lastName: "Paquereau",
     role: "Chief of Staff Technologie | Leader Programmes & Operations Tech",
-    location: "Île-de-France (ouvert a la relocation)",
+    location: "Region parisienne, France",
+    locationSubtext: "Ouvert a la relocation",
     locationLabel: "Localisation",
     ageLabel: "Age",
+    ageValue: "33",
     experienceLabel: "Annees d'experience",
-    yearsUnit: "ans",
+    experienceValue: "11+ ans",
     intro:
       "A l'intersection de la strategie, de l'execution et de la technologie pour accelerer les programmes, optimiser les operations et creer un impact mesurable.",
     ctaPrimary: "Me contacter",
@@ -87,7 +89,7 @@ export const fr: TranslationDictionary = {
   },
   education: {
     title: "Formation",
-    schoolYears: "2010-2025",
+    schoolYears: "2010-2015",
     school:
       "ISTEC, Institute of Higher Education in Business and Marketing, Paris - France",
     degree:

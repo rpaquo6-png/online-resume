@@ -22,11 +22,13 @@ export const es: TranslationDictionary = {
     firstName: "Romain",
     lastName: "Paquereau",
     role: "Chief of Staff de Tecnologia | Lider de Programas y Operaciones Tech",
-    location: "Ile-de-France (disponible para reubicacion)",
+    location: "Area de Paris, Francia",
+    locationSubtext: "Disponible para reubicacion",
     locationLabel: "Ubicacion",
     ageLabel: "Edad",
+    ageValue: "33",
     experienceLabel: "Anos de experiencia",
-    yearsUnit: "anos",
+    experienceValue: "11+ anos",
     intro:
       "Conecto estrategia, ejecucion y tecnologia para escalar programas, optimizar operaciones y generar impacto medible.",
     ctaPrimary: "Contactarme",
@@ -87,7 +89,7 @@ export const es: TranslationDictionary = {
   },
   education: {
     title: "Educacion",
-    schoolYears: "2010-2025",
+    schoolYears: "2010-2015",
     school:
       "ISTEC, Institute of Higher Education in Business and Marketing, Paris - France",
     degree:

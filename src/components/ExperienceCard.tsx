@@ -22,7 +22,7 @@ export function ExperienceCard({ record, content, side, revealProgress }: Props)
     <article
       className={`glass-card ml-12 md:ml-0 md:col-span-5 ${
         side === "left" ? "md:col-start-1" : "md:col-start-8"
-      } transition-[background-color,border-color] duration-300 ease-out`}
+      } shadow-[0_2px_10px_rgba(17,24,39,0.06)] transition-[background-color,border-color,box-shadow,transform] duration-300 ease-out hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(17,24,39,0.12)]`}
       style={{
         backgroundColor: cardBackground,
       }}

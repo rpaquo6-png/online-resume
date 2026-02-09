@@ -30,10 +30,12 @@ export type TranslationDictionary = {
     lastName: string;
     role: string;
     location: string;
+    locationSubtext?: string;
     locationLabel: string;
     ageLabel: string;
+    ageValue: string;
     experienceLabel: string;
-    yearsUnit: string;
+    experienceValue: string;
     intro: string;
     ctaPrimary: string;
     ctaSecondary: string;
